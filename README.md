@@ -7,6 +7,7 @@ Sản phẩm dành cho một người vận hành. Hiện đang ở **Giai đo�
 Chưa chốt tuyến, chưa chốt danh mục lớp, chưa train model riêng.
 
 - [Kết quả khảo sát và phần cần duyệt](docs/stage0-summary.md).
+- [Bảng tuyến/lớp và bước duyệt tiếp theo](docs/stage0-review-next.md).
 - [Cách đo và giới hạn của số liệu](docs/survey-plan.md).
 - [Quyết định kỹ thuật](docs/decisions.md).
 - [Phạm vi sản phẩm và các cổng kiểm](docs/product-scope.md).
@@ -62,11 +63,11 @@ Số object lấy từ từng dòng annotation; không lấy số ảnh trên tr
 
 ```powershell
 .\.venv\Scripts\python.exe -m survey build-review
-.\.venv\Scripts\python.exe -m http.server 8766 --bind 127.0.0.1 --directory data/private
+.\scripts\start-review.ps1
 ```
 
 Mở [giao diện duyệt trên máy](http://127.0.0.1:8766/review/routes/index.html).
-Chọn năm, nhập mã QCVN đúng, kéo khung quanh từng biển đọc rõ, rồi bấm **Lưu đã duyệt**.
+Chọn tuyến và năm, nhập mã QCVN đúng, kéo khung quanh từng biển đọc rõ, rồi bấm **Lưu đã duyệt**.
 Ảnh chưa xác định được thì chọn **Chưa rõ**. Không lấy bbox của detector làm nhãn gán tay.
 Giao diện lưu tạm trong trình duyệt. Bấm **Xuất kết quả duyệt** để giữ JSON trên máy.
 
@@ -78,6 +79,17 @@ Sau đó nhập tệp vừa xuất, thay đường dẫn theo nơi lưu của b�
 
 Đây là mẫu phát triển để khảo sát chất lượng và detector có sẵn. Mẫu này không phải tập test Hà Nội độc lập.
 Xác nhận ảnh rỗng trong giao diện không tạo observation `not_seen` và không bật bằng chứng âm.
+
+Đối chiếu và chấm PoC:
+
+```powershell
+.\.venv\Scripts\python.exe -m survey candidate-report
+.\.venv\Scripts\python.exe -m survey evaluate-poc
+```
+
+`candidate-report` chỉ lập bảng ưu tiên kiểm ảnh, chưa chọn tuyến/lớp.
+`evaluate-poc` trả mã thoát 2 và trạng thái `not_run` nếu chưa có bbox hay ánh xạ nhãn được người duyệt xác nhận.
+Không lấy nhận xét của trợ lý hoặc nhãn Mapillary làm ground truth.
 
 ## Crop và PoC detector
 

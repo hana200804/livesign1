@@ -1,0 +1,57 @@
+﻿original_label_id,original_label,proposed_qcvn,status,review_method,note
+0,DP-135,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+1,P-102,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+2,P-103a,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+3,P-103b,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+4,P-103c,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+5,P-104,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+6,P-106a,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+7,P-106b,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+8,P-107a,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+9,P-112,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+10,P-115,P.115 (cần thông số),pending_human_review,assistant_visual_sample_not_full_class_audit,Mẫu gồm 5 t và 10 t; không suy tải trọng từ class.
+11,P-117,P.117 (cần thông số),pending_human_review,assistant_visual_sample_not_full_class_audit,Mẫu có nhiều số chiều cao khác nhau; không suy số giới hạn từ class.
+12,P-123a,P.123a hoặc P.103c,pending_human_review,assistant_visual_sample_not_full_class_audit,Có crop mẫu mang biểu tượng ô tô; không tự coi toàn nhãn là cấm rẽ trái cho mọi xe.
+13,P-123b,cần xác minh,pending_human_review,assistant_visual_sample_not_full_class_audit,Cần kiểm crop có hình ngã rẽ trước khi map thẳng P.123b.
+14,P-124a,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+15,P-124b,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+16,P-124c,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+17,P-127,P.127 (cần thông số),pending_human_review,assistant_visual_sample_not_full_class_audit,Mẫu gồm 50/60/80 km/h. Nhãn chỉ cho mã; không cho phép suy số giới hạn từ class.
+18,P-128,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+19,P-130,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+20,P-131a,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+21,P-137,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+22,P-245a,cần đối chiếu W.245,pending_human_review,assistant_visual_sample_not_full_class_audit,Crop mẫu là biển tam giác Đi chậm; tiền tố P không phù hợp hình mẫu.
+23,R-301c,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+24,R-301d,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+25,R-301e,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+26,R-302a,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+27,R-302b,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+28,R-303,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+29,R-407a,I.407a (ứng viên),pending_human_review,assistant_visual_sample_not_full_class_audit,Crop mẫu là chỉ dẫn đường một chiều; cần sửa tiền tố sau khi duyệt.
+30,R-409,I.409 (ứng viên),pending_human_review,assistant_visual_sample_not_full_class_audit,Crop mẫu có hình chỉ dẫn chỗ quay xe; cần đối chiếu toàn nhãn.
+31,R-425,I.425 (ứng viên),pending_human_review,assistant_visual_sample_not_full_class_audit,Crop mẫu có hình giường bệnh và chữ thập; cần sửa tiền tố sau khi duyệt.
+32,R-434,cần đối chiếu I.434,pending_human_review,assistant_visual_sample_not_full_class_audit,Crop rất nhỏ; chưa phân biệt biến thể; không map thẳng.
+33,S-509a,cần xác minh,pending_human_review,assistant_visual_sample_not_full_class_audit,Crop mẫu là biển tam giác có số chiều cao; cần đối chiếu với biển phụ S.509a.
+34,W-201a,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+35,W-201b,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+36,W-202a,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+37,W-202b,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+38,W-203b,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+39,W-203c,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+40,W-205a,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+41,W-205b,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+42,W-205d,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+43,W-207a,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+44,W-207b,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+45,W-207c,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+46,W-208,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+47,W-209,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+48,W-210,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+49,W-219,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+50,W-224,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+51,W-225,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+52,W-227,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+53,W-233,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.
+54,W-235,W.225 (ứng viên),pending_human_review,assistant_visual_sample_not_full_class_audit,Crop mẫu mang hình trẻ em; không giống W.235 Đường đôi. Cần duyệt toàn nhãn.
+55,W-245a,,pending_human_review,assistant_visual_sample_not_full_class_audit,Đã xem tối đa 3 crop mẫu; chưa xác minh toàn bộ object của nhãn.

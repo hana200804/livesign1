@@ -1,0 +1,166 @@
+{
+  "model_source": "https://huggingface.co/liamxdev/vtsr",
+  "revision": "550d5844685059befd78909414baa33202700c87",
+  "model_sha256": "08586b55e8761ba257035a4c1fcd12aeec5ae5206eb737f4fe16029e64c01854",
+  "license": "AGPL-3.0",
+  "purpose": "pretrained_detector_poc_only",
+  "implementation_files": [
+    {
+      "path": "survey/__init__.py",
+      "sha256": "5739aa7b32cdb3503a89eacbf0822988b57629d55c8f54f89536ebf86281b676"
+    },
+    {
+      "path": "survey/__main__.py",
+      "sha256": "0a40fea8ecccffd7c2aacecfe070e0fbc9784e0a0cd67fc8b50d611ae68e0e8c"
+    },
+    {
+      "path": "survey/candidates.py",
+      "sha256": "925f770b7a9e60dd6eae89ac5f316700348724042f570beca9b5c59700761a27"
+    },
+    {
+      "path": "survey/datasets.py",
+      "sha256": "1804a936b1f762f13add04035d033ff35cf55c5894bca4fcc05b400a9bcfbfd4"
+    },
+    {
+      "path": "survey/evaluation.py",
+      "sha256": "898b399dc22fa7f5aa0b9bedbf2a9509747b3646f16eb50fe680d91bf9d6423a"
+    },
+    {
+      "path": "survey/geometry.py",
+      "sha256": "8456629d1d1d5dce26c39fc77b851a88993328f067e9979438a67d53d2386aa0"
+    },
+    {
+      "path": "survey/io.py",
+      "sha256": "fef38ebc62c88638652d3b32653a2f5a2e916976184cb385979d1e726be5f426"
+    },
+    {
+      "path": "survey/media.py",
+      "sha256": "98ec3538544dbc3551beb825b5881c4b2bdf5ab4996526117eaa4e4bbac0649e"
+    },
+    {
+      "path": "survey/metrics.py",
+      "sha256": "dd0c7d6d64a3eb8963da80391df609f91db6a3cf01fc5d40979cdca5ae06a2a6"
+    },
+    {
+      "path": "survey/network.py",
+      "sha256": "7d9cd894f41ee3b721a06600d7e35bf4e9511ce27fbcada2c6fa3955e6c165ca"
+    },
+    {
+      "path": "survey/osm.py",
+      "sha256": "974103552d4c08df0f3f05314462f44392547e4144a9c62afb3ce9518e4c7dc4"
+    },
+    {
+      "path": "survey/poc.py",
+      "sha256": "41f0d6e0c1e129678be57ed32f908172156eca87378f5c30470e68edf635362b"
+    },
+    {
+      "path": "survey/review.py",
+      "sha256": "5882c34175062c9f8e00c7d4ed13fab4a740e5c58f53f89c50fcab69a0d5885c"
+    },
+    {
+      "path": "survey/samples.py",
+      "sha256": "f067d7e4386af5430e14799e26a7b3029257c290085f141e5941299ca68e25ae"
+    },
+    {
+      "path": "survey/sources.py",
+      "sha256": "36466b9b9ef92005b0013d474cc2a3726cea647c7a176e14fadf7ec063e639d6"
+    },
+    {
+      "path": "survey/tiles.py",
+      "sha256": "7b86f5e2c1a0fe5e0d5d4aa008fdb32e0732aeae7f3c1f3c642303a2273e29c4"
+    }
+  ],
+  "implementation_hash": "8a4861f47adb9e60927a517fd8b7a1931efa047cee7f913d207c8827d0a8b16f",
+  "sample_ids_hash": "a73b23d00b57b12da39638a638891fcd12a7bacb4716eb013de4a1ea86afd98f",
+  "python_packages": {
+    "numpy": "2.5.4",
+    "onnxruntime": "1.31.1"
+  },
+  "input_tensor": [
+    1,
+    3,
+    640,
+    640
+  ],
+  "output_tensor": [
+    1,
+    60,
+    8400
+  ],
+  "output_labels": [
+    "DP-135",
+    "P-102",
+    "P-103a",
+    "P-103b",
+    "P-103c",
+    "P-104",
+    "P-106a",
+    "P-106b",
+    "P-107a",
+    "P-112",
+    "P-115",
+    "P-117",
+    "P-123a",
+    "P-123b",
+    "P-124a",
+    "P-124b",
+    "P-124c",
+    "P-127",
+    "P-128",
+    "P-130",
+    "P-131a",
+    "P-137",
+    "P-245a",
+    "R-301c",
+    "R-301d",
+    "R-301e",
+    "R-302a",
+    "R-302b",
+    "R-303",
+    "R-407a",
+    "R-409",
+    "R-425",
+    "R-434",
+    "S-509a",
+    "W-201a",
+    "W-201b",
+    "W-202a",
+    "W-202b",
+    "W-203b",
+    "W-203c",
+    "W-205a",
+    "W-205b",
+    "W-205d",
+    "W-207a",
+    "W-207b",
+    "W-207c",
+    "W-208",
+    "W-209",
+    "W-210",
+    "W-219",
+    "W-224",
+    "W-225",
+    "W-227",
+    "W-233",
+    "W-235",
+    "W-245a"
+  ],
+  "confidence_threshold": 0.25,
+  "nms_iou_threshold": 0.45,
+  "frame_count": 108,
+  "frames_with_detections": 23,
+  "predicted_box_count_by_original_label": {
+    "P-131a": 12,
+    "P-104": 1,
+    "P-130": 7,
+    "P-102": 4,
+    "P-117": 2,
+    "R-302a": 2,
+    "P-127": 2
+  },
+  "predicted_min_side_median_px": 56.187792968750045,
+  "raw_recall": null,
+  "raw_recall_status": "needs_independent_manual_boxes",
+  "negative_evidence_enabled": false,
+  "params_hash": "90528a32fb5686ecdc848a6cb260e7e3cb89cd2be8b6a98b5f841dd6ea264bf9"
+}

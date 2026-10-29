@@ -9,7 +9,7 @@
 data/raw/
 data/cache/
 data/private/
-datasets/
+/datasets/
 artifacts/
 *.jpg
 *.jpeg

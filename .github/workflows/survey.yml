@@ -1,0 +1,25 @@
+name: Khảo sát dữ liệu
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  pure-python:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-survey.txt
+      - run: python -m pip install -r requirements-survey.txt
+      - run: python -m compileall -q survey scripts tests
+      - run: python scripts/check_repository.py
+      - run: python -m pytest -q

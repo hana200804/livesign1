@@ -1,0 +1,10 @@
+{
+  "sample_ids_hash": "a73b23d00b57b12da39638a638891fcd12a7bacb4716eb013de4a1ea86afd98f",
+  "requested_images": 108,
+  "downloaded_and_verified_images": 108,
+  "failures": [],
+  "per_route_year_target_images": 12,
+  "ground_truth_status": "not_annotated",
+  "detector_status": "completed_pretrained_poc",
+  "predictions_sha256": "c8cbb2c80a231821e267f93955ec033bffc3d453a666cc198329808df064692e"
+}

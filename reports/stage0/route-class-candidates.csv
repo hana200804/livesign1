@@ -1,0 +1,163 @@
+﻿route,candidate_qcvn,year,original_labels,raw_train_objects,raw_val_objects,raw_test_objects,feature_hints,hints_with_passing_images,hints_with_ge2_passing_creators,mapping_review,confirmed_route_objects,confirmed_train_objects,gate_status,note
+hang_bai,P.102,2023,P-102,593,154,86,48,47,24,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.102,2024,P-102,593,154,86,48,48,48,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.102,2025,P-102,593,154,86,48,48,48,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.103a,2023,P-103a,118,35,17,39,38,29,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.103a,2024,P-103a,118,35,17,39,39,39,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.103a,2025,P-103a,118,35,17,39,39,39,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.106a,2023,P-106a,194,57,24,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.106a,2024,P-106a,194,57,24,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.106a,2025,P-106a,194,57,24,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.117,2023,P-117,346,87,42,0,0,0,pending,,,needs_independent_review,Cần đọc số chiều cao riêng. Không suy số từ class.
+hang_bai,P.117,2024,P-117,346,87,42,0,0,0,pending,,,needs_independent_review,Cần đọc số chiều cao riêng. Không suy số từ class.
+hang_bai,P.117,2025,P-117,346,87,42,0,0,0,pending,,,needs_independent_review,Cần đọc số chiều cao riêng. Không suy số từ class.
+hang_bai,P.123a,2023,P-123a,28,8,4,48,48,30,mixed_sample,,,needs_independent_review,Crop mẫu có biểu tượng ô tô; chưa thể map toàn nhãn sang P.123a.
+hang_bai,P.123a,2024,P-123a,28,8,4,48,48,47,mixed_sample,,,needs_independent_review,Crop mẫu có biểu tượng ô tô; chưa thể map toàn nhãn sang P.123a.
+hang_bai,P.123a,2025,P-123a,28,8,4,48,48,48,mixed_sample,,,needs_independent_review,Crop mẫu có biểu tượng ô tô; chưa thể map toàn nhãn sang P.123a.
+hang_bai,P.123b,2023,P-123b,211,68,36,35,34,22,needs_disambiguation,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.123b,2024,P-123b,211,68,36,35,35,35,needs_disambiguation,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.123b,2025,P-123b,211,68,36,35,35,35,needs_disambiguation,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.124a,2023,P-124a,151,53,16,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.124a,2024,P-124a,151,53,16,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.124a,2025,P-124a,151,53,16,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.127,2023,P-127,2717,850,427,2,2,2,pending,,,needs_independent_review,Cần đọc số km/h riêng. Nhãn AI chỉ gợi ý tìm ảnh.
+hang_bai,P.127,2024,P-127,2717,850,427,2,2,2,pending,,,needs_independent_review,Cần đọc số km/h riêng. Nhãn AI chỉ gợi ý tìm ảnh.
+hang_bai,P.127,2025,P-127,2717,850,427,2,2,2,pending,,,needs_independent_review,Cần đọc số km/h riêng. Nhãn AI chỉ gợi ý tìm ảnh.
+hang_bai,P.128,2023,P-128,7,3,0,2,2,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.128,2024,P-128,7,3,0,2,2,2,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.128,2025,P-128,7,3,0,2,2,2,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.130,2023,P-130,1833,540,257,10,7,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.130,2024,P-130,1833,540,257,10,10,10,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.130,2025,P-130,1833,540,257,10,10,10,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,P.131a,2023,P-131a,1504,429,197,218,217,111,pending,,,needs_independent_review,Cần kiểm biến thể theo ngày và biển phụ.
+hang_bai,P.131a,2024,P-131a,1504,429,197,218,217,214,pending,,,needs_independent_review,Cần kiểm biến thể theo ngày và biển phụ.
+hang_bai,P.131a,2025,P-131a,1504,429,197,218,218,218,pending,,,needs_independent_review,Cần kiểm biến thể theo ngày và biển phụ.
+hang_bai,R.302a,2023,R-302a,545,140,73,7,7,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,R.302a,2024,R-302a,545,140,73,7,7,7,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,R.302a,2025,R-302a,545,140,73,7,7,7,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,R.303,2023,R-303,109,16,5,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,R.303,2024,R-303,109,16,5,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,R.303,2025,R-303,109,16,5,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,I.407a,2023,R-407a,138,36,11,116,115,34,prefix_correction_candidate,,,needs_independent_review,Nhãn gốc dùng R; hình crop cần đối chiếu I.407a.
+hang_bai,I.407a,2024,R-407a,138,36,11,116,115,112,prefix_correction_candidate,,,needs_independent_review,Nhãn gốc dùng R; hình crop cần đối chiếu I.407a.
+hang_bai,I.407a,2025,R-407a,138,36,11,116,116,116,prefix_correction_candidate,,,needs_independent_review,Nhãn gốc dùng R; hình crop cần đối chiếu I.407a.
+hang_bai,W.209,2023,W-209,39,11,10,3,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,W.209,2024,W-209,39,11,10,3,3,3,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,W.209,2025,W-209,39,11,10,3,3,3,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,W.225,2023,W-225;W-235,143,49,23,2,2,2,mixed_sample,,,needs_independent_review,W-235 có crop trẻ em. Chưa gộp nhãn khi chưa duyệt toàn bộ.
+hang_bai,W.225,2024,W-225;W-235,143,49,23,2,2,2,mixed_sample,,,needs_independent_review,W-235 có crop trẻ em. Chưa gộp nhãn khi chưa duyệt toàn bộ.
+hang_bai,W.225,2025,W-225;W-235,143,49,23,2,2,2,mixed_sample,,,needs_independent_review,W-235 có crop trẻ em. Chưa gộp nhãn khi chưa duyệt toàn bộ.
+hang_bai,W.227,2023,W-227,46,11,8,1,1,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,W.227,2024,W-227,46,11,8,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,W.227,2025,W-227,46,11,8,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,W.233,2023,W-233,58,9,8,2,2,2,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,W.233,2024,W-233,58,9,8,2,2,2,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+hang_bai,W.233,2025,W-233,58,9,8,2,2,2,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.102,2023,P-102,593,154,86,52,47,37,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.102,2024,P-102,593,154,86,52,50,40,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.102,2025,P-102,593,154,86,52,52,52,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.103a,2023,P-103a,118,35,17,12,12,12,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.103a,2024,P-103a,118,35,17,12,12,4,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.103a,2025,P-103a,118,35,17,12,12,12,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.106a,2023,P-106a,194,57,24,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.106a,2024,P-106a,194,57,24,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.106a,2025,P-106a,194,57,24,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.117,2023,P-117,346,87,42,14,14,10,pending,,,needs_independent_review,Cần đọc số chiều cao riêng. Không suy số từ class.
+tran_quang_khai,P.117,2024,P-117,346,87,42,14,14,13,pending,,,needs_independent_review,Cần đọc số chiều cao riêng. Không suy số từ class.
+tran_quang_khai,P.117,2025,P-117,346,87,42,14,14,14,pending,,,needs_independent_review,Cần đọc số chiều cao riêng. Không suy số từ class.
+tran_quang_khai,P.123a,2023,P-123a,28,8,4,15,14,13,mixed_sample,,,needs_independent_review,Crop mẫu có biểu tượng ô tô; chưa thể map toàn nhãn sang P.123a.
+tran_quang_khai,P.123a,2024,P-123a,28,8,4,15,12,10,mixed_sample,,,needs_independent_review,Crop mẫu có biểu tượng ô tô; chưa thể map toàn nhãn sang P.123a.
+tran_quang_khai,P.123a,2025,P-123a,28,8,4,15,14,14,mixed_sample,,,needs_independent_review,Crop mẫu có biểu tượng ô tô; chưa thể map toàn nhãn sang P.123a.
+tran_quang_khai,P.123b,2023,P-123b,211,68,36,15,15,14,needs_disambiguation,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.123b,2024,P-123b,211,68,36,15,14,5,needs_disambiguation,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.123b,2025,P-123b,211,68,36,15,15,15,needs_disambiguation,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.124a,2023,P-124a,151,53,16,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.124a,2024,P-124a,151,53,16,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.124a,2025,P-124a,151,53,16,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.127,2023,P-127,2717,850,427,2,2,1,pending,,,needs_independent_review,Cần đọc số km/h riêng. Nhãn AI chỉ gợi ý tìm ảnh.
+tran_quang_khai,P.127,2024,P-127,2717,850,427,2,2,1,pending,,,needs_independent_review,Cần đọc số km/h riêng. Nhãn AI chỉ gợi ý tìm ảnh.
+tran_quang_khai,P.127,2025,P-127,2717,850,427,2,2,2,pending,,,needs_independent_review,Cần đọc số km/h riêng. Nhãn AI chỉ gợi ý tìm ảnh.
+tran_quang_khai,P.128,2023,P-128,7,3,0,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.128,2024,P-128,7,3,0,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.128,2025,P-128,7,3,0,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.130,2023,P-130,1833,540,257,15,15,13,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.130,2024,P-130,1833,540,257,15,15,12,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.130,2025,P-130,1833,540,257,15,15,15,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,P.131a,2023,P-131a,1504,429,197,116,116,115,pending,,,needs_independent_review,Cần kiểm biến thể theo ngày và biển phụ.
+tran_quang_khai,P.131a,2024,P-131a,1504,429,197,116,111,84,pending,,,needs_independent_review,Cần kiểm biến thể theo ngày và biển phụ.
+tran_quang_khai,P.131a,2025,P-131a,1504,429,197,116,116,116,pending,,,needs_independent_review,Cần kiểm biến thể theo ngày và biển phụ.
+tran_quang_khai,R.302a,2023,R-302a,545,140,73,24,18,11,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,R.302a,2024,R-302a,545,140,73,24,24,24,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,R.302a,2025,R-302a,545,140,73,24,24,24,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,R.303,2023,R-303,109,16,5,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,R.303,2024,R-303,109,16,5,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,R.303,2025,R-303,109,16,5,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,I.407a,2023,R-407a,138,36,11,24,24,24,prefix_correction_candidate,,,needs_independent_review,Nhãn gốc dùng R; hình crop cần đối chiếu I.407a.
+tran_quang_khai,I.407a,2024,R-407a,138,36,11,24,21,8,prefix_correction_candidate,,,needs_independent_review,Nhãn gốc dùng R; hình crop cần đối chiếu I.407a.
+tran_quang_khai,I.407a,2025,R-407a,138,36,11,24,24,24,prefix_correction_candidate,,,needs_independent_review,Nhãn gốc dùng R; hình crop cần đối chiếu I.407a.
+tran_quang_khai,W.209,2023,W-209,39,11,10,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,W.209,2024,W-209,39,11,10,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,W.209,2025,W-209,39,11,10,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,W.225,2023,W-225;W-235,143,49,23,0,0,0,mixed_sample,,,needs_independent_review,W-235 có crop trẻ em. Chưa gộp nhãn khi chưa duyệt toàn bộ.
+tran_quang_khai,W.225,2024,W-225;W-235,143,49,23,0,0,0,mixed_sample,,,needs_independent_review,W-235 có crop trẻ em. Chưa gộp nhãn khi chưa duyệt toàn bộ.
+tran_quang_khai,W.225,2025,W-225;W-235,143,49,23,0,0,0,mixed_sample,,,needs_independent_review,W-235 có crop trẻ em. Chưa gộp nhãn khi chưa duyệt toàn bộ.
+tran_quang_khai,W.227,2023,W-227,46,11,8,1,1,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,W.227,2024,W-227,46,11,8,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,W.227,2025,W-227,46,11,8,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,W.233,2023,W-233,58,9,8,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,W.233,2024,W-233,58,9,8,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+tran_quang_khai,W.233,2025,W-233,58,9,8,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.102,2023,P-102,593,154,86,16,16,16,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.102,2024,P-102,593,154,86,16,16,16,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.102,2025,P-102,593,154,86,16,16,16,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.103a,2023,P-103a,118,35,17,11,11,10,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.103a,2024,P-103a,118,35,17,11,11,11,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.103a,2025,P-103a,118,35,17,11,11,11,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.106a,2023,P-106a,194,57,24,2,2,2,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.106a,2024,P-106a,194,57,24,2,2,2,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.106a,2025,P-106a,194,57,24,2,2,2,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.117,2023,P-117,346,87,42,0,0,0,pending,,,needs_independent_review,Cần đọc số chiều cao riêng. Không suy số từ class.
+trang_thi,P.117,2024,P-117,346,87,42,0,0,0,pending,,,needs_independent_review,Cần đọc số chiều cao riêng. Không suy số từ class.
+trang_thi,P.117,2025,P-117,346,87,42,0,0,0,pending,,,needs_independent_review,Cần đọc số chiều cao riêng. Không suy số từ class.
+trang_thi,P.123a,2023,P-123a,28,8,4,34,34,31,mixed_sample,,,needs_independent_review,Crop mẫu có biểu tượng ô tô; chưa thể map toàn nhãn sang P.123a.
+trang_thi,P.123a,2024,P-123a,28,8,4,34,34,34,mixed_sample,,,needs_independent_review,Crop mẫu có biểu tượng ô tô; chưa thể map toàn nhãn sang P.123a.
+trang_thi,P.123a,2025,P-123a,28,8,4,34,34,34,mixed_sample,,,needs_independent_review,Crop mẫu có biểu tượng ô tô; chưa thể map toàn nhãn sang P.123a.
+trang_thi,P.123b,2023,P-123b,211,68,36,22,22,22,needs_disambiguation,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.123b,2024,P-123b,211,68,36,22,22,22,needs_disambiguation,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.123b,2025,P-123b,211,68,36,22,22,22,needs_disambiguation,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.124a,2023,P-124a,151,53,16,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.124a,2024,P-124a,151,53,16,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.124a,2025,P-124a,151,53,16,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.127,2023,P-127,2717,850,427,1,1,1,pending,,,needs_independent_review,Cần đọc số km/h riêng. Nhãn AI chỉ gợi ý tìm ảnh.
+trang_thi,P.127,2024,P-127,2717,850,427,1,1,1,pending,,,needs_independent_review,Cần đọc số km/h riêng. Nhãn AI chỉ gợi ý tìm ảnh.
+trang_thi,P.127,2025,P-127,2717,850,427,1,1,1,pending,,,needs_independent_review,Cần đọc số km/h riêng. Nhãn AI chỉ gợi ý tìm ảnh.
+trang_thi,P.128,2023,P-128,7,3,0,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.128,2024,P-128,7,3,0,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.128,2025,P-128,7,3,0,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.130,2023,P-130,1833,540,257,5,5,5,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.130,2024,P-130,1833,540,257,5,5,5,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.130,2025,P-130,1833,540,257,5,5,5,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,P.131a,2023,P-131a,1504,429,197,201,201,198,pending,,,needs_independent_review,Cần kiểm biến thể theo ngày và biển phụ.
+trang_thi,P.131a,2024,P-131a,1504,429,197,201,201,201,pending,,,needs_independent_review,Cần kiểm biến thể theo ngày và biển phụ.
+trang_thi,P.131a,2025,P-131a,1504,429,197,201,201,201,pending,,,needs_independent_review,Cần kiểm biến thể theo ngày và biển phụ.
+trang_thi,R.302a,2023,R-302a,545,140,73,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,R.302a,2024,R-302a,545,140,73,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,R.302a,2025,R-302a,545,140,73,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,R.303,2023,R-303,109,16,5,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,R.303,2024,R-303,109,16,5,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,R.303,2025,R-303,109,16,5,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,I.407a,2023,R-407a,138,36,11,20,20,20,prefix_correction_candidate,,,needs_independent_review,Nhãn gốc dùng R; hình crop cần đối chiếu I.407a.
+trang_thi,I.407a,2024,R-407a,138,36,11,20,20,20,prefix_correction_candidate,,,needs_independent_review,Nhãn gốc dùng R; hình crop cần đối chiếu I.407a.
+trang_thi,I.407a,2025,R-407a,138,36,11,20,20,20,prefix_correction_candidate,,,needs_independent_review,Nhãn gốc dùng R; hình crop cần đối chiếu I.407a.
+trang_thi,W.209,2023,W-209,39,11,10,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,W.209,2024,W-209,39,11,10,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,W.209,2025,W-209,39,11,10,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,W.225,2023,W-225;W-235,143,49,23,2,2,2,mixed_sample,,,needs_independent_review,W-235 có crop trẻ em. Chưa gộp nhãn khi chưa duyệt toàn bộ.
+trang_thi,W.225,2024,W-225;W-235,143,49,23,2,2,2,mixed_sample,,,needs_independent_review,W-235 có crop trẻ em. Chưa gộp nhãn khi chưa duyệt toàn bộ.
+trang_thi,W.225,2025,W-225;W-235,143,49,23,2,2,2,mixed_sample,,,needs_independent_review,W-235 có crop trẻ em. Chưa gộp nhãn khi chưa duyệt toàn bộ.
+trang_thi,W.227,2023,W-227,46,11,8,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,W.227,2024,W-227,46,11,8,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,W.227,2025,W-227,46,11,8,1,1,1,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,W.233,2023,W-233,58,9,8,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,W.233,2024,W-233,58,9,8,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.
+trang_thi,W.233,2025,W-233,58,9,8,0,0,0,pending,,,needs_independent_review,Chưa đối chiếu toàn bộ crop và ảnh tuyến.

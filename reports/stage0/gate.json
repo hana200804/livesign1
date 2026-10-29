@@ -1,0 +1,24 @@
+{
+  "stage": 0,
+  "status": "awaiting_human_input",
+  "candidate_route_count": 3,
+  "route_approved": false,
+  "classes_approved": false,
+  "negative_evidence_enabled": false,
+  "manual_reviewed_images_imported": 0,
+  "requirements_remaining": [
+    "bbox gán tay độc lập và phân bố kích thước bbox thật",
+    "recall trên mẫu đã gán tay",
+    "xác minh ánh xạ nhãn và đủ 10–15 mã ở train lẫn tuyến qua ba năm",
+    "người dùng duyệt tuyến và danh mục lớp"
+  ],
+  "next_stage_started": false,
+  "candidate_class_count": 18,
+  "candidate_report": "reports/stage0/route-class-review.md",
+  "candidate_comparison": "reports/stage0/route-candidate-comparison.csv",
+  "poc_evaluation_status": "not_run",
+  "poc_evaluation_reasons": [
+    "Chưa có bbox gán tay do người duyệt xuất và nhập vào hệ thống.",
+    "Chưa có quyết định duyệt cho toàn bộ nhãn đầu ra detector."
+  ]
+}

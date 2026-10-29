@@ -1,0 +1,10 @@
+﻿route,year,image_count,sequence_count,creator_count,creator_year_pair_count,missing_creator_images,thumb_metadata_checked_images,thumb_2048_url_pct,camera_type_checked_images,panorama_pct,camera_metadata_checked_images,camera_parameters_pct,verified_2048_pct,bbox_size_status
+hang_bai,2023,148,23,3,3,0,0,,148,100.0,0,,,cần đo
+hang_bai,2024,347,37,5,5,0,0,,347,0.0,0,,,cần đo
+hang_bai,2025,5747,608,4,4,0,0,,5747,0.0,0,,,cần đo
+tran_quang_khai,2023,238,16,3,3,0,0,,238,100.0,0,,,cần đo
+tran_quang_khai,2024,126,13,4,4,0,0,,126,0.0,0,,,cần đo
+tran_quang_khai,2025,4135,397,4,4,0,0,,4135,0.0,0,,,cần đo
+trang_thi,2023,283,21,2,2,0,0,,283,100.0,0,,,cần đo
+trang_thi,2024,471,40,5,5,0,0,,471,1.274,0,,,cần đo
+trang_thi,2025,7047,577,4,4,0,0,,7047,0.0,0,,,cần đo

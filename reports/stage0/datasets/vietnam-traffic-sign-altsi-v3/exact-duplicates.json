@@ -1,0 +1,1402 @@
+[
+  {
+    "sha256": "012a5a3a6eb622079ffdfc3ec3d889e266e4e198fb810235ada8dadf138876a1",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0035_png_jpg.rf.216a25ab78ecc942c58ea8aff4387dc1.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0035_png_jpg.rf.934cd1868273bdc76ad6da1a4751741c.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "045c7c3b0a8c573c46e87dd2464bd03c5bbebfc6d1a97a9528a6d71c60ed63be",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0020_png_jpg.rf.095592e78b573eeb9a1b8add15317ec1.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0020_png_jpg.rf.1fcfcc0a317b110f42bd4f6e1926cbc0.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "04f68225013b84d13d942ab31a866a13e3b70c8289b418eaad76105c48834962",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0008_png_jpg.rf.383cb7c47a4bbc608f33fbdd5f4702fe.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0008_png_jpg.rf.d19315c9a82edd91d55d979699a38590.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "05ffbebf9f7b01c6e75815279a0b6a3e143d0d41cc111ae11029d2904ce41287",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0027_png_jpg.rf.2c79a6801b4b7bd78c4647ff39dae122.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0027_png_jpg.rf.51b31f061594b58b0b7ac97a95f87e4d.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "0f5d38c7bb36eb3b4239567888840bfb4dd9912387265dcb8b09b2671263cd8d",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0014_png_jpg.rf.30a5fd07b5ebb7ba69d3c16977afb0fc.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0014_png_jpg.rf.7f9f73de2ea0cb4f57ce8bd36f286a19.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "13d872073a8cfe8cf5255463a7e6b1b367d460587eea85a4536ad2da6b5766e5",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0020_png_jpg.rf.058cd5b6f46c840c9296c38e57b25a16.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0020_png_jpg.rf.37e598198d2db283661834f3288a8ec7.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "180fba96cb69390a7f88005cf295baeb70c53f7689980fdd7ab75f7e326add72",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0021_png_jpg.rf.b2ba020ed1b70595c4ab30e9813de954.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0021_png_jpg.rf.fe1f4d930f93d45c5a89f13cc73538f3.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "1a067f880910d403cab840824dffdd4931ae07ca51d23fdc6afd322a2111e703",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0027_png_jpg.rf.a9d71f2614631a749d074110e5987cbd.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0027_png_jpg.rf.e44f8b7c16b31357ed79297940a80585.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "1a19fb9d6f90230d08cc3dda8e4064fb846e55efb2bf101e3fcb745254788bdf",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0058_png_jpg.rf.934600e0306a5b4d2192d56092daf775.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0058_png_jpg.rf.bee1dccd0ba48ae42b2274c3979fa743.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "1a45fbbbc251b54d071cbe08094db0089bdee6a621c3192e2e5c4ab238502dc1",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0058_png_jpg.rf.231818d36f6e45cc6717d02a689b003a.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0058_png_jpg.rf.bea7aa9c0aa845f385203c7a550176cc.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "1f939fab3882cfce121f732fb31dd98990077e16343da039a6452d68ae29056d",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4089-MOV_out0023_png_jpg.rf.3f442593ebfc5d1fe6ca095c50f8b75a.jpg",
+        "split": "test"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4089-MOV_out0023_png_jpg.rf.bfa41c8887c2776f43ade31d437bd529.jpg",
+        "split": "test"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "22e4c66f9d2ecf97ef6ea49ad98398d9f84865014086ae3d474ffae18a9b9589",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0062_png_jpg.rf.51c813be040ef5549f39e6fcb5615cdd.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0062_png_jpg.rf.bfb9dcc61ec86114f2b738b99f195908.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "24d581f8afdb450b71963aac97a20561d3b457586ce68636ed8eff8e851e796c",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0027_png_jpg.rf.288e9f464e903254fc41f094f6046571.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0027_png_jpg.rf.471af62cfdd91a6e11537fb8c2af37ed.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "2747b65f9371d6d38f98dd68b1d3b32f2efb131ab561e4da1e3a61a9f0decc0a",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0026_png_jpg.rf.793a124b5646e7e9cb2927034d101774.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0026_png_jpg.rf.ea224c6cbc588020583d63f6fd9d8be0.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "288d84fc63f88ad8112e2963c20b18bcab68b1889cb7cca5bf3cd4986f1ab452",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0013_png_jpg.rf.774b5ea046f97e74f82adfe8695e85eb.jpg",
+        "split": "test"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0013_png_jpg.rf.960e1f73380f2f5989884827b95da63b.jpg",
+        "split": "test"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "2c5b191936d6732009de29b48e2ae39cd976a5d8541f3b99774bff8bc11916e8",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0039_png_jpg.rf.5cf310e1890aa7d2463e75537e3b62a2.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0039_png_jpg.rf.5f8191dc9b3f23d93db32fd5ff744847.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "2de90cbacc62aa627faea16f92c544573d4c7f0d5af8beceaad6f917938907d1",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0048_png_jpg.rf.4a5ef04496569f0ef9539e868d3a2a7f.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0048_png_jpg.rf.88bd71d73c0e17d71e69d932d3083827.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "32489d866d166ba864a6f82dac98062c64204d40ad571e26d9ec6e7af197e2bd",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0027_png_jpg.rf.8cfaa66ca37c0f25fcb8820f2644a095.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0027_png_jpg.rf.b4e5b9cdba8cbe1e83b861a3d11981ca.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "35a4173deb0a0d14681f45c0f38add3569d1b73109395a4f7a9ba4cd9ee33370",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0037_png_jpg.rf.61b8fce6a4807d444b93a388bd85d0cf.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0037_png_jpg.rf.be47ce6fcb2bd3897484fb6a3b269c4f.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "3d3130234df9eae476e48ac51e998fdf0c55dfa6fccb18a350c80a0732b85327",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0008_png_jpg.rf.1482936c03a29b221bab19d1da1fb6c3.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0008_png_jpg.rf.631c64d61c2122abe723830fc4a24ab7.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "3f1794db24a123ca93b5fa07662bb4e052a834c2e755a074a91c76b045d65486",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4089-MOV_out0008_png_jpg.rf.53606694ab3bbd6b1e9cc9ab8046c463.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4089-MOV_out0008_png_jpg.rf.6522bbb2e8933d95bcc8e7ec1b3e582a.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "40402bdfec40f06b42034bf3526e6248de09b49578a4d8898be70ba745463edc",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0034_png_jpg.rf.299347c287666dc8298c3a3649373cd9.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0034_png_jpg.rf.53d36de7b476c9480021ad1a586b5766.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "43cbfac1d98d72a1e65d464842fa64df971f6151ec3ebf7758ae79423dcfefa7",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0023_png_jpg.rf.99ca309471aa1880c589e8871e2aeaf1.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0023_png_jpg.rf.aed4228873a4a402d257353cb9fd75cb.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "4734330e14ad5a3c217e107077140e2809986bc787583ecc08adcdeca2a43530",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0008_png_jpg.rf.ebdf1da13df4630e802067565b4ec064.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0008_png_jpg.rf.ed4da9bd8d1974ae947bf54bd8b106ea.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "47c0d3b0f45cde12b307715e499c184d514b7e2123688e6e6989fddcb01a5c5f",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0022_png_jpg.rf.df41cf4c6d39baece808df9625e58b8f.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0022_png_jpg.rf.e47df5aef0221a0399759abcaef60ff1.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "47ca27889264281f4438c61d3da36aea8eff10eb8dc47185c833af3b780128f6",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0041_png_jpg.rf.9bd6b966cb346760aefd342820765f8f.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0041_png_jpg.rf.bd2d0359d53295692ff8c3ac95958e81.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "4a7b0563148967b3e1d08093486cc26560b7ef67d8205f94ead7e59bc0e03e6d",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0014_png_jpg.rf.27bc4006f3f8fa18d7c23f3d33449a8b.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0014_png_jpg.rf.5a3c2462a96a25435d0f5a8f2c7bf279.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "4f49f60d83b56a9b0c7f6b021e2b59f956d1155df10b345d2b99ee7cf43fcda4",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4089-MOV_out0022_png_jpg.rf.02220254a103a136ac71842c5f5cb99e.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4089-MOV_out0022_png_jpg.rf.3f06c6cc7a0153e7ac2cafba7983007c.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "51c1c968753e079b957d59a54638d142ba30011087f144f2ce760afbf9b5ccb1",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0035_png_jpg.rf.9390c21d7099eda9d75bbafec4336adb.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0035_png_jpg.rf.d7222bdf3e2bb3a1a5689e018e8abf84.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "52f3618fc3faa1bb03b62a1a60c20eb253ecf06a42a74ff408fcd670431868ef",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0027_png_jpg.rf.0c32db7a7875068f9257fdc9a5111db8.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0027_png_jpg.rf.5b76455ed105da504d4ed17b1ad45a3c.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "535c8149c32f0d36dae726f9bd07d663568f657b04d9f0f31d3209c32dfeb965",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0007_png_jpg.rf.8af96fa97a1cd242a5a17405ecf9bcb7.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0007_png_jpg.rf.9c097af5e3561bc484fcb7fdfc5ae3d2.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "5395a454c7a751354390f66fe2d6557aab43c57a990a1a111c6bcb26b04c322c",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0034_png_jpg.rf.3544a5758fc98bde0c9e154324c09a3a.jpg",
+        "split": "test"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0034_png_jpg.rf.788a34b8275eed897db38119c60aa2f5.jpg",
+        "split": "test"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "56c81eb2d7bff6971f31bfa1ac43aedad9e802d5c7c5c83c507cf2abfa41c0eb",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0040_png_jpg.rf.18b8ba2546590f90af2208cf4e18aa77.jpg",
+        "split": "test"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0040_png_jpg.rf.51d4d5180eb140190fcf38514d6ff217.jpg",
+        "split": "test"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "576c89082bb2cc525b34f481441a108efc77fce16aa99177273386539def8e88",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0062_png_jpg.rf.0512196f565d3fc34eb0f2c154d2361f.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0062_png_jpg.rf.2ddf91fcefa21c7348c56f9405a8eb40.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "5aecf9473b5ae864cf65183f561b33f7061a3ba8ed1eab913a562dfe5ce1fa53",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0014_png_jpg.rf.03268e61c8d4d4137afec749e718589d.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0014_png_jpg.rf.a75de393429026ffb473fe5b05097ed0.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "5bc3026ed5f7882f17532ed27162a50bafc9d16151c70daaff70bc205b92d071",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4089-MOV_out0002_png_jpg.rf.a89fb1f582576cb68b4f808c049d92a9.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4089-MOV_out0002_png_jpg.rf.be6239577630b84e8592eb4f216692f9.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "5f0cf1449cb57f6da06aa91e2f4fec34836e4cf148503d7b5f57a50057d05a72",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0021_png_jpg.rf.3bfc8918eb604795d148c7ea98bde0ee.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0021_png_jpg.rf.f24bf68a0afc5c8ed7bc33670d70c494.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "5fb2c8973b36df80668fa10aad5b6e74fdd5f8628f99b0f7f7d2f0171b2d6d1a",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0021_png_jpg.rf.8bb3a2b6cce31f12d77ddf7df93f1076.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0021_png_jpg.rf.b4c4411adfb7311db7fbfc1d6c210aef.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "625e9115a95052cda855993d9405d2400262976c417d80f05777c3b668c6709f",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0054_png_jpg.rf.5ff9846c5fa49529b7356c6c5752e15c.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0054_png_jpg.rf.dff77e1be7872410f71e3ffb179fedef.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "645984d7d0104150d0f796bffe395b75b9fd2a0aa16459ca2e74e0f24a00f989",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0016_png_jpg.rf.4e0bf8989f388906e93f0c8e4c5fa276.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0016_png_jpg.rf.fb1b60bcdf9cf13227f9968942c2351b.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "662d3a0d7a42037031a83e28417a73eb0148ac4778b9e1b368199990121a140f",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0058_png_jpg.rf.a23ca4d8cb0c987ec474e28dd6e242d4.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0058_png_jpg.rf.df405b17e5566fe8c82d18d91e2c6ed8.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "678bd7f64e5f389a44ab9f6f7e9719b145f6d551d06e9d93d6ec60b07fcd55be",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4089-MOV_out0022_png_jpg.rf.250108803518fcdb95ce094182cd30e0.jpg",
+        "split": "test"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4089-MOV_out0022_png_jpg.rf.c5f909da5365d6f739c24c3445a0ef2b.jpg",
+        "split": "test"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "6b890d82aa4a2866bfc62a249544beb9b509325ce72caf6807d23ff762ca7857",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4089-MOV_out0023_png_jpg.rf.21aaceae14cebc3fd35d7d716ed9d5a8.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4089-MOV_out0023_png_jpg.rf.2e9e7c166d04df703f9bd74a41ff4def.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "6cf75539af551bd66f0dfaf1cd05baeae92fc2dadb6454e4bf8ed0306bc88060",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0026_png_jpg.rf.08b225b35486a923578d23e39fe341a0.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0026_png_jpg.rf.b94c81de53b6e482a5991e781b51ffa3.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "6ebee4c07a725fd5603b7ed7fa9ed9a0298969c354c24a25479bc70096d557e4",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0048_png_jpg.rf.0c03eb298278b2f74d49999a8c869cb6.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0048_png_jpg.rf.30ac825ef217c623096a4ec99aa37943.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "6fa811ddfc7c90a5a08e5d52e4499fcf404d16aa23eb83de3a5d613975b050c0",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0002_png_jpg.rf.8430818f7dae3497a15fb70754fdbb42.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0002_png_jpg.rf.c0a28efa29a53cddf423cde182a09385.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "709994dea9d0a66dd6b320a4aff4022de4c8bf0baf857620e40a56e7f5d7d299",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0007_png_jpg.rf.b2de81a9585105f73ad874c8d6dde708.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0007_png_jpg.rf.b7631d4c03f2abbbd7e01f8d69d06664.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "71ad8cf1293b83344bfbdc7394c48adf3c14388b7491bf86f207a6ed20bd6d3b",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0048_png_jpg.rf.0141f4e16e1740b587fe4cccd26d1aa7.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0048_png_jpg.rf.1da39bac977efbe5625072e23da996be.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "737ba075c973385dbb73aec26974f0e8ae3109a7f03c79a3e418e7c677a18f01",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0026_png_jpg.rf.783f1c7743482e1a2ca7035a9debe95f.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0026_png_jpg.rf.f965da10629a0f9b959cff40ed224bfd.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "744c80c52b164250f850af2e0fbef5e7376f2bcf7697802022e082f020c5ed73",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0035_png_jpg.rf.4edba421eb5477bb26e0cbb6f1ec77b6.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0035_png_jpg.rf.5d6c954aaa887bdb70a81568814359ac.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "75f5fbcf2249f67be544c5f31a961142510cb88ef39f054d281ae30f243de43a",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0035_png_jpg.rf.8a3d1dc4d1b019a776bd4d066399f7ed.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0035_png_jpg.rf.a5d3fcac7c93efdfc5ccd6e4e3d36959.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "76b03c10c364ea7dc750b9634123730b16993dbeb561d7290e4f29fa24dfa21e",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0007_png_jpg.rf.863d1ddc45a908ecf4a7119aa35a68ee.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0007_png_jpg.rf.c7c1961fdceff725406fe7957b826805.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "78a961bf73b20a0460db7a991c4c30a2d2f507e4b70cba5e4367b45e08647767",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0022_png_jpg.rf.aef46f219f4a57c12c6c1f3c12d1a506.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0022_png_jpg.rf.fe5b99d839aae834b810c6e47c4167d4.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "798d1469f4a0a84b5153b0e141317c38252ad06fb160a1af1b1a38bc3f98e20d",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0054_png_jpg.rf.c75ccf63bffef4598bc3acaba66adc53.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0054_png_jpg.rf.ebbf3202a5fd83d3b68a91c3e1a8de0b.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "85d4669615cd80205920fbfd4311158bdeaab0576eda055d3d5deb8bcc3f2c4c",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0016_png_jpg.rf.b546611623fd59d7281bce6c6c27f92d.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0016_png_jpg.rf.fe5b0ed194b9afddd43ab725dc06deba.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "89a38ab52a5cc9707296ac53dfb540bbdef19fc59242734d292bede820f53009",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0062_png_jpg.rf.0ba3c6ed263d216c868c989b6d49db8c.jpg",
+        "split": "test"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0062_png_jpg.rf.63deb369d6e69f31cb7616895f3dd19f.jpg",
+        "split": "test"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "8b25bc70648ea1142ba12d322677d6df3efbb53bba8efa8bc31ad65536d0f6ea",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0034_png_jpg.rf.65e384e40f236774a851ee239d35d639.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0034_png_jpg.rf.8fa7688a1de9f7a246bf93cf33e4ec68.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "8b29b2223d1df82246e5390949eeb5c18a2e0da4c9b6bf39e72ad9dc716018ad",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0016_png_jpg.rf.6a044174b3c82addaef472c14df9e316.jpg",
+        "split": "test"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0016_png_jpg.rf.d1a4f93ddc4e572108735992713f05ce.jpg",
+        "split": "test"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "943f3c9b6eb1e50e5facc6170d48c4b94fed62e4b3ad0cd7184414978e07e062",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0002_png_jpg.rf.b12596e3495fc36ae4f2989a279dd314.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0002_png_jpg.rf.cccb5f01f5d318306a3623ea69291b58.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "953fde761690df8004a4637e6180cc2215aae3c369ca2f5df7949f46cbc53f13",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0016_png_jpg.rf.82f8bef153b4b8891fa18df80e1fc8e7.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0016_png_jpg.rf.caaee2fd0f10a917977151d65099acda.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "954659bef3ff8ec52e1e2a363b68a89c2765cb6795e343243cb8ead15a2005ea",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0054_png_jpg.rf.5fee9dd0423cdf5af4284c9377392235.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0054_png_jpg.rf.f7b0ff9ec6b54311d12a7e69572a9c45.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "977b0b90f0243a3ff55c20ee3c612811d842c4e858fb5ce331973c766170d671",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0041_png_jpg.rf.90a30df892fdccd0bde99740b0573772.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0041_png_jpg.rf.d06835dd7ebaf2c4b05d7ad697b378a7.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "980741c4ffab7186d6b6ba988cd3dc79992d7e8f011dd11fea0d18a2ac5cbcda",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0062_png_jpg.rf.243394d971abe5b985a6308d7f7f7a8b.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0062_png_jpg.rf.64bd6db17c8372a124b0861fb064657b.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "98bed6de438ff3118d78b57b11d5fb0efb63dd554b53ed88f11a97ecd30d8f83",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4089-MOV_out0022_png_jpg.rf.346fe387b163a879f4288146bb5368ba.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4089-MOV_out0022_png_jpg.rf.f7aee5fb8a5ada9d65f482689def6e55.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "99351f3379063d54f40a49d50527b13ad95d3c7a20d910a7ab75a82cf1404eb2",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0021_png_jpg.rf.df37ca63ad13e1549b5a5ec713583851.jpg",
+        "split": "test"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0021_png_jpg.rf.e403e709cfad69e5e2ea2e15d71521eb.jpg",
+        "split": "test"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "9e42203c18b0f2541998aa5ee54a885a1213f0e9d10d17d19960c93d790079a1",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0021_png_jpg.rf.d2f9fe4c459b5648b6a5e47159164d76.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0021_png_jpg.rf.ee9e53c90091be7f834136b2218ae08c.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "9f65153e79dc04bc3e7d74aacef87dd21067a93786ef2d44e28910630b77620b",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0035_png_jpg.rf.74d620e2913b7180bc6e1fbe67170f2e.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0035_png_jpg.rf.7b8d6b563f714530b63dd7e05700afab.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "a5057fd8fc2edba5db5719d8005a6df8bbdcd2ae3492a200aacbaa8f76ce6bb8",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0034_png_jpg.rf.acb8fe7864f32646bb969b727672a530.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0034_png_jpg.rf.f8db162db670d254315516ec9ccd6ff3.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "a937fe8a68aeb9456bfb7288f80a2bc3ce9b41220a49c214948b245acd7b54f3",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0058_png_jpg.rf.03f2f0a49dd57ed89f306103076ed0a1.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0058_png_jpg.rf.bf8fa572c090315eb13c1813bcae81d5.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "a94e731d157d2dd77bff59cbcc4c4b3eaecefc30fcdc8866757999b5729cc384",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0020_png_jpg.rf.3ffbbc09591908c44bb205b9d137f8dd.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0020_png_jpg.rf.9e8ec0be1a2a4d663d3b89429ed6c722.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "ab81ee50b97d387acad3de991d3abc0298433d5a357267049f96e0ba54e3e1eb",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0002_png_jpg.rf.46a67fb2e6a3e345716b8ff8d5946a88.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0002_png_jpg.rf.692fa1145b867da41a260d49c2e8a96c.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "b0baeb72b6970bef13c70c7446f0df93436288e9ad090f6c6357b1a74f9bbdbe",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0008_png_jpg.rf.1245253262de0398961331ba9ede6e5c.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0008_png_jpg.rf.844e3511361ff9f3c2f6136f1ee982bb.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "b518d71bca422c906ad998c5bc66e18bc8a5ed3f04b9d60436fd36b29a55bf2f",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0016_png_jpg.rf.1c0d57027705bd6c935e06c5acfdfa6e.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0016_png_jpg.rf.a9f21651b5595567bd0f5d1d1d6e6b2c.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "b8740cfbe320364a3c056c4140afaea6ce2f31e8526a99a028e4f6077393c452",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0026_png_jpg.rf.25c286a4715c4266437895d7ab75c172.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0026_png_jpg.rf.6b657cefce33cf623147b920b5a860b0.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "b93b6636b56f82a4d8fab95ba568a86288915212f231a3097de8287a6dbbb970",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0007_png_jpg.rf.04be3ee73e700ec079dbd09efc04946f.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0007_png_jpg.rf.a36e51519d28336166f6b60ce812074b.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "be066b6a17aee28422c165418bc045165c4647c55105ceb7c4cca5e2f9395463",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0014_png_jpg.rf.c22cb9cbe94d291a509971837d180f56.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0014_png_jpg.rf.dd103318a8a049ff457abd2abe50d5b8.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "c39531138568e6b03533b42ea84253adc8a8d42994a8894e7d45782df1b29be6",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0054_png_jpg.rf.37208104cf734843d0f5c9adfe7484fc.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0054_png_jpg.rf.fc9263adb56f954dd8c57974f36b1ed4.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "c48a8355cd1456b73545c15359328f86bda6d8ed798ea076ce280188e4c897ad",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0012_png_jpg.rf.664ee651f21d922b1db48daaa004935a.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0012_png_jpg.rf.f16e736305070f481bf16ad9f7158968.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "c7937c4dabbf09d0bf6b82b040af00fb9bb0faf7250074e79e01dfec9ef0f74b",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0008_png_jpg.rf.d6dc6a6f13d3623ec74ac5d16ddaab9c.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0008_png_jpg.rf.dd27a5fd59787804ebe0b079990346cd.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "cfbe49dc36c4caa70f17bb3fb7e71ffe8918d0f0b88a753524f58b243b3398e9",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0023_png_jpg.rf.010ee6877282ae13578972ff0e36fc6a.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0023_png_jpg.rf.fce8fae1946b6383a42869ce05b4c4e3.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "d235797fc48842974bf1ee2dcf020c071bf0aa8d1d907be2768a1665d0b02059",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0002_png_jpg.rf.056498504a0dcf4ce84038539b26764b.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0002_png_jpg.rf.be04689f6532c0e24cb9bc15405845da.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "da42ec00c607f9d13ceeae68a666543020af785459f576c0d5d31ed637c472c7",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4089-MOV_out0007_png_jpg.rf.14c0fe2339b5fc752819f4a0c11a0757.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4089-MOV_out0007_png_jpg.rf.931bd9c910285a71786a745f482564db.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "dad208633d7bd3c64e5f80e0a430c9385db7401038a7c89c9f360ea9a9bd5d7d",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0041_png_jpg.rf.401fde12081711f9ac771f057b564702.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0041_png_jpg.rf.531fbce206b905da8f3fc9f0e1b9ba66.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "dbf72da990f9dca568471e80dd5d0594e7b4798617e052a55e5b3629339759c8",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0054_png_jpg.rf.718f04dd5e2b0cc1c582d3742b38565b.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0054_png_jpg.rf.90742599194b29ee5f6227871125ba71.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "dc1688677a89d32c8e0a7135ab8ec1b51bbea1d67940b3323efd96292dd2dfe5",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0041_png_jpg.rf.34bf72e44ffd73a009f03d05e10e3336.jpg",
+        "split": "val"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:valid/images/IMG_4090-MOV_out0041_png_jpg.rf.5ec9c0e49ba251c2372af02aff6fb31a.jpg",
+        "split": "val"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "df458b0728b5e084c3402f37dfc46ddc5d9891720391b3da5fd87c9b7416db08",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0014_png_jpg.rf.1d582a27203bcf1b6858ed3ff086adeb.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0014_png_jpg.rf.46a5ec6284b92cc4c0bb9af4b42e1dec.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "e0ab2009b92d56663b953839810f0a695fc89935c382f9c382259318d9145121",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0034_png_jpg.rf.32497f72ae938fc3c03c690171a3c31f.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0034_png_jpg.rf.d2af53c42b61369f5552233948bef0b2.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "e1b3b6545715320e8a4cc8fc298ed247d6d40002b8047cfac72a8445bdf3878b",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0048_png_jpg.rf.6d11dba3e8202240344ef49a4d00613a.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0048_png_jpg.rf.e77d3d35fc71b505cc5c8258a9a668d9.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "e31f8e9df3555e833af528b25024486f5d081c72a0ba4b4d857e9259aa4561dc",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0041_png_jpg.rf.4d3ad57829a03d214b8ae3ee8102253e.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0041_png_jpg.rf.998384ee8bffc5c0cba17d76c059250c.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "e3cb222871fde178418259564de8e2a1a2366687e4f9c9a085604d4ee9618cc2",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0023_png_jpg.rf.5fe52dc7932164a352d8e26e37f9e44e.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0023_png_jpg.rf.eae5609c06c36d22dc17e3c0393d1fe7.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "e409fa1cc2a599ebb107d7b400156b4bd2659ca5612d328f1249d71a9a005e46",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0048_png_jpg.rf.54d2d38ca32228e545308a0b31bbb130.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0048_png_jpg.rf.a337e571126013d95839ab8479c2965f.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "e60a84e5a53da41eeb09a658eaecf9bf4e061360556a50f57195aa026d0326c6",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0008_png_jpg.rf.50f25812df051740b2cffde001e3d764.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0008_png_jpg.rf.5374d2d8721bedb862fbf17dc3be144b.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "ed4b6d80a8b1094818633e8d2e1241a1f29ab0d8303578da28440632b5153c58",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0008_png_jpg.rf.1b543b6c0e69be2e351144dbc61252ef.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0008_png_jpg.rf.c1261f7f5a3cc8822a2a6fabaa5929d2.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "f148caf3e075e7221220a696f517fbe32266fcea8fd10e26a62fecd250b55860",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0026_png_jpg.rf.2dddfac062d227c62be5b77a7302d8a6.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0026_png_jpg.rf.a7bd19be3328f5dc7853969213b95534.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "f325a66d39c2da7ead7e3d3ef8cfef28dbb97429fd449347ccb7024ae58718b3",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0020_png_jpg.rf.47534c8e9b674570d1ac2bdc4f7015e6.jpg",
+        "split": "test"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:test/images/IMG_4090-MOV_out0020_png_jpg.rf.6c169e5e61b9fc7a78bd4623f1460a4c.jpg",
+        "split": "test"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "f78f350b32efcf542c553012593dfa282058d0530ce7532f306323f9cb398925",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0020_png_jpg.rf.616d69c8670487b0a22590ac681fba97.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0020_png_jpg.rf.70e80444f0b3e343aceee640f02357e9.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "fa442ca064a7fc4acd0ab0cd3b4f07a1065e958dd187b56c998bb73b0b878a1a",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0062_png_jpg.rf.53e7268c008a8ac91d220b813ab75b33.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0062_png_jpg.rf.76bc6753cb2d66291fb8eb23a80872e8.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "fc1faa327f6d2222b5d4954970a97719f4a1b698293f646bbf6afc70ccc6bc08",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0008_png_jpg.rf.38665df8e884981299a1127563d9bb9c.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0008_png_jpg.rf.b208aa680c36ac79143da0071e097638.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "fe86906263bfee0fafd15c53f8cd036fb7047c7670b24306018741a3c93324ba",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0058_png_jpg.rf.864399d9be2e77d925b5dc1abc58d498.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4090-MOV_out0058_png_jpg.rf.92b4905e59cbeb2a84087f92017aaac5.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "ffd672c960f1901c7957ddf7017410d9bec976416e01b524ca58eac030ee0abf",
+    "members": [
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0008_png_jpg.rf.123f9de88bcda411d4bf58629f166340.jpg",
+        "split": "train"
+      },
+      {
+        "image_key": "vietnam-traffic-sign-altsi-v3:train/images/IMG_4089-MOV_out0008_png_jpg.rf.e3b9e1fbcc873f400bbf822e18a03387.jpg",
+        "split": "train"
+      }
+    ],
+    "cross_split": false
+  }
+]

@@ -1,0 +1,166 @@
+{
+  "created_at_utc": "2026-10-29T04:20:36.739910+00:00",
+  "status": "awaiting_manual_review_and_route_class_approval",
+  "run_id": "survey-20261029T042036739910Z",
+  "python_version": "3.12.10",
+  "implementation_files": [
+    {
+      "path": "survey/__init__.py",
+      "sha256": "5739aa7b32cdb3503a89eacbf0822988b57629d55c8f54f89536ebf86281b676"
+    },
+    {
+      "path": "survey/__main__.py",
+      "sha256": "63c2b76a3daa08a98b2cb38fabf689e04774d66c27de5e188501aac058810812"
+    },
+    {
+      "path": "survey/datasets.py",
+      "sha256": "1804a936b1f762f13add04035d033ff35cf55c5894bca4fcc05b400a9bcfbfd4"
+    },
+    {
+      "path": "survey/geometry.py",
+      "sha256": "8456629d1d1d5dce26c39fc77b851a88993328f067e9979438a67d53d2386aa0"
+    },
+    {
+      "path": "survey/io.py",
+      "sha256": "fef38ebc62c88638652d3b32653a2f5a2e916976184cb385979d1e726be5f426"
+    },
+    {
+      "path": "survey/media.py",
+      "sha256": "98ec3538544dbc3551beb825b5881c4b2bdf5ab4996526117eaa4e4bbac0649e"
+    },
+    {
+      "path": "survey/metrics.py",
+      "sha256": "dd0c7d6d64a3eb8963da80391df609f91db6a3cf01fc5d40979cdca5ae06a2a6"
+    },
+    {
+      "path": "survey/network.py",
+      "sha256": "7d9cd894f41ee3b721a06600d7e35bf4e9511ce27fbcada2c6fa3955e6c165ca"
+    },
+    {
+      "path": "survey/osm.py",
+      "sha256": "974103552d4c08df0f3f05314462f44392547e4144a9c62afb3ce9518e4c7dc4"
+    },
+    {
+      "path": "survey/poc.py",
+      "sha256": "4dace692ff8ad09679fd9286d09d1ee442a7bfea0d1a049d19e4cf47e4c990aa"
+    },
+    {
+      "path": "survey/review.py",
+      "sha256": "f0ab0a64f40961e680e3aded725b1ca78453ffce7950ef3fec929cccdc96569b"
+    },
+    {
+      "path": "survey/samples.py",
+      "sha256": "f067d7e4386af5430e14799e26a7b3029257c290085f141e5941299ca68e25ae"
+    },
+    {
+      "path": "survey/sources.py",
+      "sha256": "36466b9b9ef92005b0013d474cc2a3726cea647c7a176e14fadf7ec063e639d6"
+    },
+    {
+      "path": "survey/tiles.py",
+      "sha256": "7b86f5e2c1a0fe5e0d5d4aa008fdb32e0732aeae7f3c1f3c642303a2273e29c4"
+    }
+  ],
+  "implementation_hash": "62eaa5387dd31ecd8b788655ae81ae914c1e1ee592eda8ce95690937da0c734d",
+  "inputs": [
+    {
+      "path": "config/survey.yaml",
+      "sha256": "649649c9c4c2eba5972c5204a4d05c43700aa9c34bcc3c314adfd6d68074748a"
+    },
+    {
+      "path": "config/params.yaml",
+      "sha256": "7d2d7bbba9b909f950d23f1c27fdac09106bd071727f9cd2c1fd7d95e5598474"
+    },
+    {
+      "path": "data/cache/hoan_kiem/osm.json",
+      "sha256": "787f34051f0e654004bbc4d67060d21a81dc403243b9015caf9b15888277677e"
+    },
+    {
+      "path": "data/cache/hoan_kiem/images.jsonl",
+      "sha256": "80643ccafde81cbf41121072a389594577b774580a0592a400074f3d915b66c5"
+    },
+    {
+      "path": "data/cache/hoan_kiem/features.jsonl",
+      "sha256": "b2ed84aa41a70478e4fb55b91f7b481cf593779c70ba9ef4c2bc37489f47d873"
+    },
+    {
+      "path": "data/cache/hoan_kiem/osm-manifest.json",
+      "sha256": "64132b4926ffbf3f50446701d57d5f3e81ce6a5ff3c3a784000f298a58eadf65"
+    },
+    {
+      "path": "data/cache/hoan_kiem/images-manifest.json",
+      "sha256": "de6ada89cfe11f285518017a8d1fc72ba32839d764bf72c017e8f898c7429a2e"
+    },
+    {
+      "path": "data/cache/hoan_kiem/features-manifest.json",
+      "sha256": "a08c4b6fc0ca8fc6d246494813d85f145d9cc59f92327def7925136a194d7d59"
+    },
+    {
+      "path": "reports/stage0/routes/hang_bai.geojson",
+      "sha256": "419d735a3266f7a1b448c63f39c02fe74b6fa70a220f98b37e39c32d24d9e953"
+    },
+    {
+      "path": "reports/stage0/routes/tran_quang_khai.geojson",
+      "sha256": "72b418e4181b8826413e24b71b3f41ec0219d0e7f98dd7697c8fd2f18075bb22"
+    },
+    {
+      "path": "reports/stage0/routes/trang_thi.geojson",
+      "sha256": "8c162ef79de3df18a92d00a9e98e6d843d52183a0c63853a387c521dadb76a30"
+    },
+    {
+      "path": "data/cache/cau_giay/osm.json",
+      "sha256": "37871a22c18832b10aee72ad5faf830030a269e3fc8b072950217da95105d591"
+    },
+    {
+      "path": "data/cache/cau_giay/images.jsonl",
+      "sha256": "ee8fad5ac08869f326c7bc237b5a9ec589b7a4c0730805d62a77f6fca5094fa3"
+    },
+    {
+      "path": "data/cache/cau_giay/features.jsonl",
+      "sha256": "1f56038638731c7c9e7740c7c5644825bc7302e9f823c79fb36f32a9817099c4"
+    },
+    {
+      "path": "data/cache/cau_giay/osm-manifest.json",
+      "sha256": "a491ba9ade59603f3f443ddd2adfd239c7309b13a86caf82593a697fbe572e60"
+    },
+    {
+      "path": "data/cache/cau_giay/images-manifest.json",
+      "sha256": "c213636f0c2d8cba0e096eba09e3dde30c6a4de1b6a25ca045b64ad4741f09a3"
+    },
+    {
+      "path": "data/cache/cau_giay/features-manifest.json",
+      "sha256": "75ecd4a4df2121786c35f96569b458e652dbe9f915a52c7fb1f084e09f5eab32"
+    },
+    {
+      "path": "data/cache/ha_dong/osm.json",
+      "sha256": "f771617929bb9f5b912ffaf8b8677a34fddd2fd49fb35cbc9ed8b1b0102e5987"
+    },
+    {
+      "path": "data/cache/ha_dong/images.jsonl",
+      "sha256": "fb1b6f7e0f6c07b81ef70ed264d8e6c5b682dc375bedb075b54257eaf1d67766"
+    },
+    {
+      "path": "data/cache/ha_dong/features.jsonl",
+      "sha256": "578a40e72728f25bd7aad753750f84d76758616788303316c63301073507e6ad"
+    },
+    {
+      "path": "data/cache/ha_dong/osm-manifest.json",
+      "sha256": "03a13c2059b1da924905e4aaea4a40091fd419acdd82ca4665b7cb5467dd9ff2"
+    },
+    {
+      "path": "data/cache/ha_dong/images-manifest.json",
+      "sha256": "852f62daade594963d608d0139e2377963b2887dff0f18e10a19c76d81b702e8"
+    },
+    {
+      "path": "data/cache/ha_dong/features-manifest.json",
+      "sha256": "7410f90daab9af203eec8efa7dd79bf0fd961c5b0405c8aade019117041ca135"
+    }
+  ],
+  "attribution": [
+    "© Mapillary contributors",
+    "© OpenStreetMap contributors"
+  ],
+  "route_approved": false,
+  "classes_approved": false,
+  "negative_evidence_enabled": false
+}
