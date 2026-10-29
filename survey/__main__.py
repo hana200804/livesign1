@@ -83,6 +83,16 @@ def parser() -> argparse.ArgumentParser:
         "import-review", help="Kiểm tra và nhập JSON gán tay do người dùng xuất."
     )
     review_import.add_argument("--file", type=Path, required=True)
+    cvat_export = commands.add_parser(
+        "export-cvat", help="Đóng gói ảnh khóa và labels.json cho CVAT."
+    )
+    cvat_export.add_argument("--route", default=None)
+    cvat_export.add_argument("--year", type=int, choices=(2023, 2024, 2025), default=None)
+    cvat_import = commands.add_parser(
+        "import-cvat", help="Nhập CVAT for images 1.1, kiểm ID/hash và trạng thái gán tay."
+    )
+    cvat_import.add_argument("--file", type=Path, required=True)
+    cvat_import.add_argument("--package", type=Path, required=True)
     crops = commands.add_parser("crop-sheets", help="Tạo ảnh ghép crop cho từng nhãn gốc dataset.")
     crops.add_argument("--directory", type=Path, required=True)
     crops.add_argument("--report", type=Path, required=True)
@@ -376,6 +386,17 @@ def main(argv: list[str] | None = None) -> int:
 
             count = import_review(root, args.file.resolve())
             print(f"Đã nhập {count} ảnh đã duyệt. Không tạo observation not_seen.")
+            return 0
+        if args.command == "export-cvat":
+            from .cvat import export_cvat
+
+            print(f"Gói CVAT: {export_cvat(root, args.route, args.year)}")
+            return 0
+        if args.command == "import-cvat":
+            from .cvat import import_cvat
+
+            count = import_cvat(root, args.file.resolve(), args.package.resolve())
+            print(f"Đã nhập CVAT: tổng {count} ảnh đã duyệt; không bật bằng chứng âm.")
             return 0
         if args.command == "audit-dataset":
             from .datasets import audit_dataset

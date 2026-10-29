@@ -33,7 +33,8 @@ Các ID truy được tại `https://www.mapillary.com/app/?pKey=<ID>`.
 
 ## Duyệt và chấm
 
-Xem [hướng dẫn duyệt 12 ảnh đầu](duyet-anh-nhanh.md) để thao tác và gửi lại tệp JSON.
+Ưu tiên [CVAT online](cvat-review.md); đã có bộ đóng gói ảnh khóa và nhập CVAT XML 1.1.
+[Trang duyệt cục bộ](duyet-anh-nhanh.md) vẫn dùng được với phần đã gán trước đó.
 
 Mở trang duyệt, chọn **Phố Huế – Hàng Bài**, rồi lần lượt 2023/2024/2025. Mỗi năm có 12 ảnh.
 Vẽ bbox của biển nhận ra đúng mã; chọn **Chưa rõ** nếu không chắc. Không lấy dự đoán model làm nhãn.

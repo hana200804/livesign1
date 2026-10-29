@@ -1,5 +1,7 @@
 # Duyệt 12 ảnh đầu
 
+Hiện ưu tiên [CVAT online theo lựa chọn của người dùng](cvat-review.md). Phần dưới là cách dùng trang duyệt cục bộ nếu đã bắt đầu ở đó.
+
 Mở http://127.0.0.1:8766/review/routes/index.html. Chọn tuyến **Phố Huế – Hàng Bài**, năm **2023**.
 Danh sách còn 12 ảnh. Chưa cần duyệt cả 108 ảnh trong một lần.
 
