@@ -19,7 +19,7 @@
   "locked_sample_image_hashes_verified": 108,
   "implementation_hash": "62eaa5387dd31ecd8b788655ae81ae914c1e1ee592eda8ce95690937da0c734d",
   "coverage": "cần đo",
-  "github_actions": "chưa chạy; chưa có URL remote",
+  "github_actions": "chưa xác nhận; kiểm tra run trên repo hana200804/livesign1 sau khi push",
   "mvp_status": "not_complete",
   "canonical_line_endings": "LF; kiểm trên Windows, test dùng cùng kỳ vọng trên Linux"
 }

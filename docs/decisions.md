@@ -3,7 +3,8 @@
 ## 2026-10-29 — Cách vận hành
 
 Theo cập nhật trực tiếp của người dùng, xây sản phẩm cho một người vận hành thay cho kế hoạch nhóm 3 người.
-Người dùng tự tạo repo GitHub mới và sẽ gửi URL. Không suy đoán repo đích, không đẩy mã sang repo khác.
+Người dùng đã chỉ định repo [hana200804/livesign1](https://github.com/hana200804/livesign1).
+Repo đích đang public khi kết nối. Chỉ đưa mã nguồn, cấu hình mẫu và metadata nhỏ lên repo; giữ bí mật, ảnh, dataset và trọng số ở máy.
 Repo cục bộ dùng nhánh `data/khao-sat-ban-dau`. Không tự merge, không force push và không bỏ kiểm tra.
 
 ## 2026-10-29 — Cổng dữ liệu
