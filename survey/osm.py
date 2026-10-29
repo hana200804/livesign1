@@ -56,7 +56,7 @@ def road_lines(document: dict, bbox: list[float] | None = None) -> list[list[Poi
             ]
     if bbox is None:
         return [segments[key] for key in sorted(segments)]
-    clipped = [clip_segment(*segments[key], bbox) for key in sorted(segments)]
+    clipped = [clip_segment(segments[key][0], segments[key][1], bbox) for key in sorted(segments)]
     return [segment for segment in clipped if segment is not None]
 
 

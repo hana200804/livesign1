@@ -33,6 +33,8 @@ Các ID truy được tại `https://www.mapillary.com/app/?pKey=<ID>`.
 
 ## Duyệt và chấm
 
+Xem [hướng dẫn duyệt 12 ảnh đầu](duyet-anh-nhanh.md) để thao tác và gửi lại tệp JSON.
+
 Mở trang duyệt, chọn **Phố Huế – Hàng Bài**, rồi lần lượt 2023/2024/2025. Mỗi năm có 12 ảnh.
 Vẽ bbox của biển nhận ra đúng mã; chọn **Chưa rõ** nếu không chắc. Không lấy dự đoán model làm nhãn.
 Xuất JSON rồi nhập bằng `python -m survey import-review --file <đường-dẫn-json>`.

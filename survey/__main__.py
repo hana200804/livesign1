@@ -316,6 +316,8 @@ def fetch(root: Path, config: dict, params: dict, command: str, selection: str) 
             continue
         kind = "images" if command == "fetch-images" else "features"
         spec = collection_spec(config, params, region_id, kind)
+        if client is None:
+            raise ValueError("Chưa tạo client thu thập Mapillary.")
         rows = client.tile_entities(spec["bbox"], kind, root / "data/cache/tiles")
         if kind == "images":
             from .metrics import captured_year
@@ -339,8 +341,9 @@ def fetch(root: Path, config: dict, params: dict, command: str, selection: str) 
 
 def main(argv: list[str] | None = None) -> int:
     for stream in (sys.stdout, sys.stderr):
-        if hasattr(stream, "reconfigure"):
-            stream.reconfigure(encoding="utf-8")
+        reconfigure = getattr(stream, "reconfigure", None)
+        if callable(reconfigure):
+            reconfigure(encoding="utf-8")
     args = parser().parse_args(argv)
     root = args.root.resolve()
     try:

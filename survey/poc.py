@@ -133,7 +133,10 @@ def run_poc(root: Path, params: dict) -> None:
         )
         tensor = np.asarray(canvas, dtype=np.float32).transpose(2, 0, 1)[None] / 255.0
         started = time.perf_counter()
-        raw = session.run(None, {session.get_inputs()[0].name: tensor})[0][0].T
+        output_tensor = np.asarray(session.run(None, {session.get_inputs()[0].name: tensor})[0])
+        if output_tensor.shape != (1, 4 + len(names), 8400):
+            raise ValueError("Tensor đầu ra PoC khác hợp đồng của model đã khóa.")
+        raw = output_tensor[0].T
         inference_ms = (time.perf_counter() - started) * 1000
         class_ids = np.argmax(raw[:, 4:], axis=1)
         scores = np.max(raw[:, 4:], axis=1)

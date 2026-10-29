@@ -1,2 +1,4 @@
 -r requirements-survey.txt
 ruff==0.17.3
+coverage==7.17.0
+pyright==1.1.414

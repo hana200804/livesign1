@@ -41,12 +41,12 @@ def crop_sheets(directory: Path, report: Path, output: Path) -> None:
                 with Image.open(directory / relative) as source:
                     source = source.convert("RGB")
                     cx, cy, width, height = box["xywh"]
-                    rectangle = [
+                    rectangle = (
                         math.floor((cx - width / 2) * source.width),
                         math.floor((cy - height / 2) * source.height),
                         math.ceil((cx + width / 2) * source.width),
                         math.ceil((cy + height / 2) * source.height),
-                    ]
+                    )
                     crop = source.crop(rectangle)
                     crop = ImageOps.contain(crop, (180, 112), Image.Resampling.LANCZOS)
                     sheet.paste(crop, (left + slot * 195 + 12, top + 38))

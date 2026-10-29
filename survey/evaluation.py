@@ -232,6 +232,8 @@ def evaluate_poc(root: Path) -> dict:
             ],
         },
     )
+    manual = []
+    mapping: dict[str, str | None] = {}
     if not manual_path.exists():
         result["reasons"].append("Chưa có bbox gán tay do người duyệt xuất và nhập vào hệ thống.")
     else:

@@ -8,20 +8,25 @@ import math
 import re
 from pathlib import Path
 
-from .io import read_json, read_jsonl, read_yaml, sha256_file, write_jsonl
+from .io import read_json, read_jsonl, read_yaml, sha256_file, stable_hash, write_jsonl
 
 
 def build_review(root: Path) -> Path:
     lock = read_json(root / "data/private/samples/sample-lock.json")
+    if stable_hash(lock["images"]) != lock["sample_ids_hash"]:
+        raise ValueError("Danh sách mẫu đã đổi sau khi khóa; chưa xuất trang duyệt.")
     with (root / "reports/stage0/sample-quality.csv").open(
         encoding="utf-8-sig", newline=""
     ) as source:
-        quality = {row["image_id"]: row for row in csv.DictReader(source)}
+        records = list(csv.DictReader(source))
+        quality = {row["image_id"]: row for row in records}
+    if len(quality) != len(records):
+        raise ValueError("Bảng chất lượng ảnh mẫu còn ID trùng.")
     images = []
     for item in lock["images"]:
         row = quality.get(item["image_id"])
         if row is None:
-            continue
+            raise ValueError("Bảng chất lượng thiếu ảnh trong mẫu đã khóa; chưa xuất trang duyệt.")
         images.append(
             {
                 **item,
@@ -97,15 +102,22 @@ def validate_manual_record(row: dict, expected: dict) -> dict:
 def import_review(root: Path, path: Path) -> int:
     exported = read_json(path)
     lock = read_json(root / "data/private/samples/sample-lock.json")
+    if stable_hash(lock["images"]) != lock["sample_ids_hash"]:
+        raise ValueError("Danh sách mẫu đã đổi sau khi khóa; chưa nhập nhãn.")
     if (
         exported.get("sample_ids_hash") != lock["sample_ids_hash"]
         or exported.get("annotation_origin") != "human_review_ui"
     ):
         raise ValueError("Tệp duyệt không thuộc mẫu đã khóa hoặc không có nguồn gán tay.")
-    expected = {
-        row["image_id"]: row
-        for row in read_jsonl(root / "data/private/samples/annotation-template.jsonl")
-    }
+    template = read_jsonl(root / "data/private/samples/annotation-template.jsonl")
+    expected = {row["image_id"]: row for row in template}
+    locked_ids = [row["image_id"] for row in lock["images"]]
+    if (
+        len(expected) != len(template)
+        or len(set(locked_ids)) != len(locked_ids)
+        or set(expected) != set(locked_ids)
+    ):
+        raise ValueError("Template gán nhãn thiếu, trùng hoặc khác ID trong mẫu đã khóa.")
     accepted = []
     seen = set()
     for row in exported["images"]:

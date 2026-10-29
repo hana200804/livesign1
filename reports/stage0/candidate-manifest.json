@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-10-29T04:45:44.849163+00:00",
+  "created_at_utc": "2026-10-29T04:55:19.292034+00:00",
   "purpose": "stage0_search_priority_only",
   "status": "pending_independent_review_and_user_approval",
   "implementation_files": [
@@ -9,7 +9,7 @@
     },
     {
       "path": "survey/__main__.py",
-      "sha256": "35526402896053e08090d3b4fa459884868b7b2d47f3f2cc5abec726da845739"
+      "sha256": "49a8670a2540a648b4d3cf76eb447356661856d4f17bdf395fe6417822b4c014"
     },
     {
       "path": "survey/candidates.py",
@@ -21,7 +21,7 @@
     },
     {
       "path": "survey/evaluation.py",
-      "sha256": "92e4b4988dc3e367a938d540a72d6cce2783d3bba6ec744441d0c76289456d78"
+      "sha256": "0bb9a66cf54a906e305c1461eee644aff7fbdf660d62e98c54a216a7136e05f4"
     },
     {
       "path": "survey/geometry.py",
@@ -33,7 +33,7 @@
     },
     {
       "path": "survey/media.py",
-      "sha256": "98ec3538544dbc3551beb825b5881c4b2bdf5ab4996526117eaa4e4bbac0649e"
+      "sha256": "80e656af79dffafd332af03e868c49386cd9aa85ec33329c8413e086fa95c011"
     },
     {
       "path": "survey/metrics.py",
@@ -45,15 +45,15 @@
     },
     {
       "path": "survey/osm.py",
-      "sha256": "974103552d4c08df0f3f05314462f44392547e4144a9c62afb3ce9518e4c7dc4"
+      "sha256": "39a698c49dd6b61cf8f1180037e0ebd4cd0c75dfb6a99b6bf787987bfb25a143"
     },
     {
       "path": "survey/poc.py",
-      "sha256": "41f0d6e0c1e129678be57ed32f908172156eca87378f5c30470e68edf635362b"
+      "sha256": "d7ac306bf986dbb6edaeea83b1cb7d181ae7772567b5d1d14128f527ee2a55d9"
     },
     {
       "path": "survey/review.py",
-      "sha256": "5882c34175062c9f8e00c7d4ed13fab4a740e5c58f53f89c50fcab69a0d5885c"
+      "sha256": "920bfad26fdd52162c536c16559c8206692774ce3eddd01ead035adcac62fdda"
     },
     {
       "path": "survey/samples.py",
@@ -65,10 +65,10 @@
     },
     {
       "path": "survey/tiles.py",
-      "sha256": "7b86f5e2c1a0fe5e0d5d4aa008fdb32e0732aeae7f3c1f3c642303a2273e29c4"
+      "sha256": "70c71b769a5e2f6dd4482cb969379b6177a1b146c6faec711432a696e0ba8d47"
     }
   ],
-  "implementation_hash": "0bbaa8723e7b41f068b25b93d41a009b749904b9833a30f8cc5f47be1522bc21",
+  "implementation_hash": "074fd66d3dc42f39b55314a1381fbc75b1ca53621c2928cc0ed7e34646027b33",
   "candidate_class_count": 18,
   "years": [
     2023,

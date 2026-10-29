@@ -38,7 +38,25 @@
     function boxes(){const item=record();byId('boxes').replaceChildren();item.boxes.forEach((box,index)=>{const row=document.createElement('div');row.className='box';const title=document.createElement('span');title.textContent=box.label;const remove=document.createElement('button');remove.textContent='Xóa';remove.setAttribute('aria-label','Xóa khung '+(index+1));remove.onclick=()=>{item.boxes.splice(index,1);item.review_status='pending';persist();refresh()};row.append(title,remove);byId('boxes').append(row)});byId('empty-note').hidden=item.boxes.length>0;byId('explicit-empty').checked=item.explicit_empty;byId('status').textContent=item.review_status==='reviewed'?'Đã duyệt':item.review_status==='unclear'?'Chưa rõ':'Chưa duyệt'}
     function refresh(){boxes();draw();renderList()}
     function resize(){if(!loadedImage)return;const fit=Math.max(0.1,(byId('viewport').clientWidth-40)/canvas.width);const scale=byId('zoom').value==='fit'?Math.min(1,fit):Number(byId('zoom').value);canvas.style.width=Math.round(canvas.width*scale)+'px';canvas.style.height=Math.round(canvas.height*scale)+'px'}
-    function show(index){loadedImage=null;start=null;draft=null;const empty=!filtered.length;for(const id of ['reviewed','unclear','reset','previous','next','explicit-empty'])byId(id).disabled=empty;if(empty){context.clearRect(0,0,canvas.width,canvas.height);byId('image-title').textContent='Không có ảnh trong bộ lọc';byId('dimensions').textContent='';byId('source').removeAttribute('href');byId('boxes').replaceChildren();byId('status').textContent='Không có ảnh';renderList();return}position=Math.max(0,Math.min(filtered.length-1,index));const item=current();record();byId('image-title').textContent=item.year+' · Ảnh '+(dataset.images.indexOf(item)+1);byId('source').href='https://www.mapillary.com/app/?pKey='+encodeURIComponent(item.image_id);byId('dimensions').textContent=item.width_px+' × '+item.height_px+' px';byId('provenance').textContent='Ảnh '+item.image_id+' · SHA-256 '+item.image_sha256;message('');const image=new Image();image.onload=()=>{if(current()?.image_id!==item.image_id)return;loadedImage=image;canvas.width=image.naturalWidth;canvas.height=image.naturalHeight;resize();refresh()};image.onerror=()=>message('Chưa mở được ảnh. Chạy máy chủ xem ảnh theo README.');image.src='../../samples/images/'+encodeURIComponent(item.image_id)+'.jpg';boxes();renderList()}
+    function lockReview(locked){for(const id of ['reviewed','unclear','reset','explicit-empty'])byId(id).disabled=locked}
+    function show(index){
+      loadedImage=null;start=null;draft=null;context.clearRect(0,0,canvas.width,canvas.height);lockReview(true);
+      const empty=!filtered.length;for(const id of ['previous','next'])byId(id).disabled=empty;
+      if(empty){byId('image-title').textContent='Không có ảnh trong bộ lọc';byId('dimensions').textContent='';byId('source').removeAttribute('href');byId('boxes').replaceChildren();byId('status').textContent='Không có ảnh';renderList();return}
+      position=Math.max(0,Math.min(filtered.length-1,index));const item=current();record();
+      byId('image-title').textContent=item.year+' · Ảnh '+(dataset.images.indexOf(item)+1);
+      byId('source').href='https://www.mapillary.com/app/?pKey='+encodeURIComponent(item.image_id);
+      byId('dimensions').textContent=item.width_px+' × '+item.height_px+' px';
+      byId('provenance').textContent='Ảnh '+item.image_id+' · SHA-256 '+item.image_sha256;message('Đang tải ảnh gốc…');
+      const image=new Image();
+      image.onload=()=>{
+        if(current()?.image_id!==item.image_id)return;
+        if(image.naturalWidth!==item.width_px||image.naturalHeight!==item.height_px){message('Kích thước ảnh khác mẫu đã khóa. Chưa cho phép duyệt.');return}
+        loadedImage=image;canvas.width=image.naturalWidth;canvas.height=image.naturalHeight;resize();lockReview(false);refresh();message('');
+      };
+      image.onerror=()=>{if(current()?.image_id===item.image_id)message('Chưa mở được ảnh. Chạy máy chủ xem ảnh theo README. Chưa cho phép duyệt.')};
+      image.src='../../samples/images/'+encodeURIComponent(item.image_id)+'.jpg';boxes();renderList();
+    }
     function coordinate(event){const rectangle=canvas.getBoundingClientRect();return [Math.max(0,Math.min(canvas.width,(event.clientX-rectangle.left)*canvas.width/rectangle.width)),Math.max(0,Math.min(canvas.height,(event.clientY-rectangle.top)*canvas.height/rectangle.height))]}
     canvas.onpointerdown=event=>{if(!loadedImage)return;const code=byId('code').value.trim();if(!/^(?:DP|P|W|I|R|S)\.\d{3}[a-z]?$/.test(code)){message('Nhập mã QCVN, ví dụ P.102, trước khi vẽ khung.');byId('code').focus();return}start=coordinate(event);canvas.setPointerCapture(event.pointerId)};
     canvas.onpointermove=event=>{if(!start)return;const end=coordinate(event);draft=[Math.min(start[0],end[0]),Math.min(start[1],end[1]),Math.max(start[0],end[0]),Math.max(start[1],end[1])];draw()};

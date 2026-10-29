@@ -1,6 +1,6 @@
 import pytest
 
-from survey.tiles import decode_points, fields, packed, tile_point, varint, zigzag
+from survey.tiles import decode_points, decode_value, fields, packed, tile_point, varint, zigzag
 
 
 def encode_varint(value):
@@ -54,3 +54,22 @@ def test_fields_reject_truncated_bytes_and_unknown_wire_type():
     with pytest.raises(ValueError):
         fields(b"\x0f")
     assert packed(b"\x01\x80\x01") == [1, 128]
+
+
+@pytest.mark.parametrize("number", [1, 2, 3])
+def test_mvt_string_or_float_cannot_use_integer_wire_value(number):
+    with pytest.raises(ValueError, match="bytes"):
+        decode_value(wire(number, 42))
+
+
+@pytest.mark.parametrize("number", [4, 5, 6, 7])
+def test_mvt_integer_or_boolean_cannot_use_bytes_wire_value(number):
+    with pytest.raises(ValueError, match="số nguyên"):
+        decode_value(wire(number, b"not an integer"))
+
+
+@pytest.mark.parametrize("field", [1, 2, 3, 4, 5])
+def test_mvt_layer_rejects_wrong_wire_type(field):
+    layer = (b"" if field == 1 else wire(1, b"image")) + wire(field, b"bad" if field == 5 else 1)
+    with pytest.raises(ValueError):
+        decode_points(wire(3, layer), 0, 0, 0)

@@ -1,8 +1,8 @@
 {
-  "checked_at_utc": "2026-10-29T04:46:12.691435+00:00",
+  "checked_at_utc": "2026-10-29T04:57:18.366664+00:00",
   "scope": "đối chiếu Giai đoạn 0 và công cụ chấm PoC",
   "pytest": {
-    "passed": 89,
+    "passed": 106,
     "failed": 0,
     "environment": "Python 3.12; pytest + PyYAML; không có NumPy/Pillow/ONNX Runtime/torch"
   },
@@ -20,12 +20,53 @@
       2048,
       1024
     ],
-    "manual_bbox_draw_and_export_e2e": "chưa kiểm"
+    "manual_bbox_draw_and_export_e2e": {
+      "scope": "isolated synthetic fixture; never imported as survey GT",
+      "native_mouse_drag": true,
+      "reload_preserves_boxes": true,
+      "downloaded_json_validated": true,
+      "bbox_100_percent": [
+        10,
+        10,
+        80,
+        80
+      ],
+      "bbox_200_percent_reverse_drag": [
+        20,
+        30,
+        50,
+        70
+      ],
+      "pending_image_retained": true
+    },
+    "missing_image_regression": {
+      "source": "isolated synthetic fixture; not real survey annotations",
+      "loaded_image_save_enabled": true,
+      "missing_image_save_enabled": false,
+      "missing_image_checkbox_enabled": false,
+      "previous_canvas_cleared": true
+    }
   },
   "poc_frames": 108,
   "poc_predicted_boxes": 30,
   "raw_recall_status": "not_run_needs_independent_labels_and_mapping",
   "negative_evidence_enabled": false,
-  "implementation_hash": "0bbaa8723e7b41f068b25b93d41a009b749904b9833a30f8cc5f47be1522bc21",
-  "ci_status": "chưa xác nhận cho commit của bước duyệt mới"
+  "implementation_hash": "074fd66d3dc42f39b55314a1381fbc75b1ca53621c2928cc0ed7e34646027b33",
+  "ci_status": "chờ xác nhận commit này; các run của 0ddf002 đạt cả Ubuntu và Windows",
+  "python_static_types": {
+    "tool": "Pyright 1.1.414",
+    "files_analyzed": 17,
+    "errors": 0,
+    "warnings": 0,
+    "scope": "survey scripts, môi trường dev + PoC"
+  },
+  "coverage": {
+    "tool": "coverage.py 7.17.0",
+    "scope": "survey; statement coverage",
+    "covered_statements": 1068,
+    "statements": 1760,
+    "percent": 60.68,
+    "target_percent": 80,
+    "target_met": false
+  }
 }
