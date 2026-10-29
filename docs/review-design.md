@@ -20,5 +20,6 @@ Trạng thái chưa duyệt, đã duyệt và chưa rõ được ghi bằng ch�
 ## Đã kiểm
 
 Trang thật đã mở trong trình duyệt. Đọc đủ 108 ảnh trong danh sách và mở được ảnh 2.048 × 1.536 px.
+Đã kiểm bộ lọc Phố Huế – Hàng Bài + 2023: có đúng 12 ảnh, ảnh đầu tải được ở kích thước 2.048 × 1.024 px.
 Thử lưu ảnh chưa có bbox, chưa xác nhận rỗng: giao diện chặn và count đã duyệt vẫn 0.
 Chưa tự gán ground truth trên ảnh thật. Export file và thao tác vẽ cần được kiểm tiếp với dữ liệu thử riêng.

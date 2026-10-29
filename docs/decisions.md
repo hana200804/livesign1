@@ -45,3 +45,13 @@ Trang gán bbox mặc định hiển thị ảnh gốc và trạng thái chưa d
 Ảnh rỗng cần xác nhận rõ. Ảnh chưa rõ bị loại khỏi ground truth.
 Kết quả xuất có hash mẫu và ảnh; bộ nhập kiểm mã, bbox, kích thước và ID trùng.
 Xác nhận ảnh rỗng ở công cụ này không tạo observation `not_seen`.
+
+## 2026-10-29 — Đối chiếu tuyến/lớp và chấm PoC
+
+Lập bảng 18 mã để so sánh, tách khỏi danh mục lớp chính thức. Không chốt 10–15 mã bằng số feature gợi ý.
+Ưu tiên kiểm ảnh Hàng Bài vì có 14 mã trong giao sơ bộ giữa annotation gốc và gợi ý qua ba năm.
+Không gọi số này là số lớp đã xác nhận; nhãn lẫn có thể làm số lớp hợp lệ giảm.
+PoC dùng matching một–một có số cặp nhiều nhất trong các cặp cùng lớp, IoU ≥0,50.
+Không gọi phép chấm này là mAP COCO. Bucket dùng cạnh ngắn bbox thật, có đơn vị px.
+Ảnh thiếu dự đoán gây lỗi; ảnh chưa rõ không coi là ảnh âm. Thiếu nhãn hoặc ánh xạ đã duyệt thì kết quả not_run.
+Nhận xét ảnh của trợ lý giữ riêng, không đánh dấu thành gán tay độc lập.

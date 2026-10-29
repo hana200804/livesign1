@@ -34,3 +34,11 @@ negative_evidence_enabled:
   value: false
   status: đã chốt
   reason: Chỉ đổi sau bài thử B3 và khi người dùng cho phép.
+poc_small_bbox_px:
+  value: 32
+  status: dự kiến
+  reason: Cạnh ngắn bbox gán tay <32 px trong báo cáo PoC; không phải bucket diện tích COCO.
+poc_medium_bbox_px:
+  value: 96
+  status: dự kiến
+  reason: Cạnh ngắn bbox gán tay 32–<96 px; >=96 px là lớn. Không phải chỉ số COCO.

@@ -8,7 +8,7 @@ import math
 import re
 from pathlib import Path
 
-from .io import read_json, read_jsonl, sha256_file, write_jsonl
+from .io import read_json, read_jsonl, read_yaml, sha256_file, write_jsonl
 
 
 def build_review(root: Path) -> Path:
@@ -30,7 +30,12 @@ def build_review(root: Path) -> Path:
                 "image_sha256": row["image_sha256"],
             }
         )
-    payload = {"sample_ids_hash": lock["sample_ids_hash"], "images": images}
+    config = read_yaml(root / "config/survey.yaml")
+    payload = {
+        "sample_ids_hash": lock["sample_ids_hash"],
+        "images": images,
+        "routes": [{"id": row["id"], "name": row["name"]} for row in config["route_seeds"]],
+    }
     template = Path(__file__).with_name("review.html").read_text(encoding="utf-8")
     encoded = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
     output = root / "data/private/review/routes/index.html"

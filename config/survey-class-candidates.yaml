@@ -1,0 +1,85 @@
+# Danh sách để khảo sát, KHÔNG phải danh mục lớp chính thức ai/configs/classes.yaml.
+status: pending_user_approval
+qcvn_reference: reports/stage0/qcvn-reference.json
+classes:
+  - code: P.102
+    original_labels: [P-102]
+    hints: [regulatory--no-entry--g1]
+    mapping_review: pending
+  - code: P.103a
+    original_labels: [P-103a]
+    hints: [regulatory--no-motor-vehicles-except-motorcycles--g2]
+    mapping_review: pending
+  - code: P.106a
+    original_labels: [P-106a]
+    hints: [regulatory--no-heavy-goods-vehicles-or-tractors--g1]
+    mapping_review: pending
+  - code: P.117
+    original_labels: [P-117]
+    hints: [regulatory--height-limit--g1]
+    mapping_review: pending
+    note: Cần đọc số chiều cao riêng. Không suy số từ class.
+  - code: P.123a
+    original_labels: [P-123a]
+    hints: [regulatory--no-left-turn--g1]
+    mapping_review: mixed_sample
+    note: Crop mẫu có biểu tượng ô tô; chưa thể map toàn nhãn sang P.123a.
+  - code: P.123b
+    original_labels: [P-123b]
+    hints: [regulatory--no-right-turn--g1]
+    mapping_review: needs_disambiguation
+  - code: P.124a
+    original_labels: [P-124a]
+    hints: [regulatory--no-u-turn--g1]
+    mapping_review: pending
+  - code: P.127
+    original_labels: [P-127]
+    hints: [regulatory--maximum-speed-limit-5--g3, regulatory--maximum-speed-limit-60--g1, regulatory--maximum-speed-limit-70--g1]
+    mapping_review: pending
+    note: Cần đọc số km/h riêng. Nhãn AI chỉ gợi ý tìm ảnh.
+  - code: P.128
+    original_labels: [P-128]
+    hints: [regulatory--no-horn--g1]
+    mapping_review: pending
+  - code: P.130
+    original_labels: [P-130]
+    hints: [regulatory--no-stopping--g1]
+    mapping_review: pending
+  - code: P.131a
+    original_labels: [P-131a]
+    hints: [regulatory--no-parking--g1, regulatory--no-parking--g5]
+    mapping_review: pending
+    note: Cần kiểm biến thể theo ngày và biển phụ.
+  - code: R.302a
+    original_labels: [R-302a]
+    hints: [regulatory--keep-right--g1]
+    mapping_review: pending
+  - code: R.303
+    original_labels: [R-303]
+    hints: [regulatory--roundabout--g1]
+    mapping_review: pending
+  - code: I.407a
+    original_labels: [R-407a]
+    hints: [regulatory--one-way-straight--g1]
+    mapping_review: prefix_correction_candidate
+    note: Nhãn gốc dùng R; hình crop cần đối chiếu I.407a.
+  - code: W.209
+    original_labels: [W-209]
+    hints: [warning--traffic-signals--g1]
+    mapping_review: pending
+  - code: W.225
+    original_labels: [W-225, W-235]
+    hints: [warning--children--g1]
+    mapping_review: mixed_sample
+    note: W-235 có crop trẻ em. Chưa gộp nhãn khi chưa duyệt toàn bộ.
+  - code: W.227
+    original_labels: [W-227]
+    hints: [warning--roadworks--g1]
+    mapping_review: pending
+  - code: W.233
+    original_labels: [W-233]
+    hints: [warning--other-danger--g1]
+    mapping_review: pending
+
+# Chỉ dùng cho báo cáo PoC. Không tự chấp nhận các ánh xạ trên.
+poc_mapping_decisions: []

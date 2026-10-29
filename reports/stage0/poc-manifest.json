@@ -11,11 +11,19 @@
     },
     {
       "path": "survey/__main__.py",
-      "sha256": "63c2b76a3daa08a98b2cb38fabf689e04774d66c27de5e188501aac058810812"
+      "sha256": "0a40fea8ecccffd7c2aacecfe070e0fbc9784e0a0cd67fc8b50d611ae68e0e8c"
+    },
+    {
+      "path": "survey/candidates.py",
+      "sha256": "925f770b7a9e60dd6eae89ac5f316700348724042f570beca9b5c59700761a27"
     },
     {
       "path": "survey/datasets.py",
       "sha256": "1804a936b1f762f13add04035d033ff35cf55c5894bca4fcc05b400a9bcfbfd4"
+    },
+    {
+      "path": "survey/evaluation.py",
+      "sha256": "898b399dc22fa7f5aa0b9bedbf2a9509747b3646f16eb50fe680d91bf9d6423a"
     },
     {
       "path": "survey/geometry.py",
@@ -43,11 +51,11 @@
     },
     {
       "path": "survey/poc.py",
-      "sha256": "4dace692ff8ad09679fd9286d09d1ee442a7bfea0d1a049d19e4cf47e4c990aa"
+      "sha256": "41f0d6e0c1e129678be57ed32f908172156eca87378f5c30470e68edf635362b"
     },
     {
       "path": "survey/review.py",
-      "sha256": "f0ab0a64f40961e680e3aded725b1ca78453ffce7950ef3fec929cccdc96569b"
+      "sha256": "5882c34175062c9f8e00c7d4ed13fab4a740e5c58f53f89c50fcab69a0d5885c"
     },
     {
       "path": "survey/samples.py",
@@ -62,7 +70,7 @@
       "sha256": "7b86f5e2c1a0fe5e0d5d4aa008fdb32e0732aeae7f3c1f3c642303a2273e29c4"
     }
   ],
-  "implementation_hash": "62eaa5387dd31ecd8b788655ae81ae914c1e1ee592eda8ce95690937da0c734d",
+  "implementation_hash": "8a4861f47adb9e60927a517fd8b7a1931efa047cee7f913d207c8827d0a8b16f",
   "sample_ids_hash": "a73b23d00b57b12da39638a638891fcd12a7bacb4716eb013de4a1ea86afd98f",
   "python_packages": {
     "numpy": "2.5.4",
@@ -78,6 +86,64 @@
     1,
     60,
     8400
+  ],
+  "output_labels": [
+    "DP-135",
+    "P-102",
+    "P-103a",
+    "P-103b",
+    "P-103c",
+    "P-104",
+    "P-106a",
+    "P-106b",
+    "P-107a",
+    "P-112",
+    "P-115",
+    "P-117",
+    "P-123a",
+    "P-123b",
+    "P-124a",
+    "P-124b",
+    "P-124c",
+    "P-127",
+    "P-128",
+    "P-130",
+    "P-131a",
+    "P-137",
+    "P-245a",
+    "R-301c",
+    "R-301d",
+    "R-301e",
+    "R-302a",
+    "R-302b",
+    "R-303",
+    "R-407a",
+    "R-409",
+    "R-425",
+    "R-434",
+    "S-509a",
+    "W-201a",
+    "W-201b",
+    "W-202a",
+    "W-202b",
+    "W-203b",
+    "W-203c",
+    "W-205a",
+    "W-205b",
+    "W-205d",
+    "W-207a",
+    "W-207b",
+    "W-207c",
+    "W-208",
+    "W-209",
+    "W-210",
+    "W-219",
+    "W-224",
+    "W-225",
+    "W-227",
+    "W-233",
+    "W-235",
+    "W-245a"
   ],
   "confidence_threshold": 0.25,
   "nms_iou_threshold": 0.45,
@@ -96,5 +162,5 @@
   "raw_recall": null,
   "raw_recall_status": "needs_independent_manual_boxes",
   "negative_evidence_enabled": false,
-  "params_hash": "21870271969fbb61b718b9d2d6bd4fca2239fcc288687f171c69338c0b6ae0ea"
+  "params_hash": "90528a32fb5686ecdc848a6cb260e7e3cb89cd2be8b6a98b5f841dd6ea264bf9"
 }

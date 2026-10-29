@@ -2,6 +2,8 @@
 
 **Trạng thái: chưa qua cổng.** Đã có số đo thật; còn duyệt nhãn và gán bbox độc lập để chốt tuyến/lớp.
 
+Đã bổ sung [bảng tuyến/lớp và hướng dẫn bước duyệt](stage0-review-next.md). Có 18 mã để so sánh; chưa có danh mục chính thức.
+
 ## Độ phủ vùng mẫu
 
 Các vùng là bbox trong cấu hình, không phải toàn quận. Độ phủ dùng trung điểm đoạn đường ≤10 m, bán kính ảnh 30 m.

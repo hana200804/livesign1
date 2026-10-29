@@ -1,0 +1,80 @@
+{
+  "created_at_utc": "2026-10-29T04:45:45.149663+00:00",
+  "status": "not_run",
+  "recall": null,
+  "purpose": "stage0_pretrained_poc_not_final_model_metrics_or_b3",
+  "negative_evidence_enabled": false,
+  "reasons": [
+    "Chưa có bbox gán tay do người duyệt xuất và nhập vào hệ thống.",
+    "Chưa có quyết định duyệt cho toàn bộ nhãn đầu ra detector."
+  ],
+  "metrics_valid": false,
+  "outputs": [],
+  "implementation_files": [
+    {
+      "path": "survey/__init__.py",
+      "sha256": "5739aa7b32cdb3503a89eacbf0822988b57629d55c8f54f89536ebf86281b676"
+    },
+    {
+      "path": "survey/__main__.py",
+      "sha256": "35526402896053e08090d3b4fa459884868b7b2d47f3f2cc5abec726da845739"
+    },
+    {
+      "path": "survey/candidates.py",
+      "sha256": "6c9aa54c7697ed3ae5cf7d3ca998ea31c173b495cb4ee06bb875fad35de4cf73"
+    },
+    {
+      "path": "survey/datasets.py",
+      "sha256": "1804a936b1f762f13add04035d033ff35cf55c5894bca4fcc05b400a9bcfbfd4"
+    },
+    {
+      "path": "survey/evaluation.py",
+      "sha256": "92e4b4988dc3e367a938d540a72d6cce2783d3bba6ec744441d0c76289456d78"
+    },
+    {
+      "path": "survey/geometry.py",
+      "sha256": "8456629d1d1d5dce26c39fc77b851a88993328f067e9979438a67d53d2386aa0"
+    },
+    {
+      "path": "survey/io.py",
+      "sha256": "fef38ebc62c88638652d3b32653a2f5a2e916976184cb385979d1e726be5f426"
+    },
+    {
+      "path": "survey/media.py",
+      "sha256": "98ec3538544dbc3551beb825b5881c4b2bdf5ab4996526117eaa4e4bbac0649e"
+    },
+    {
+      "path": "survey/metrics.py",
+      "sha256": "dd0c7d6d64a3eb8963da80391df609f91db6a3cf01fc5d40979cdca5ae06a2a6"
+    },
+    {
+      "path": "survey/network.py",
+      "sha256": "7d9cd894f41ee3b721a06600d7e35bf4e9511ce27fbcada2c6fa3955e6c165ca"
+    },
+    {
+      "path": "survey/osm.py",
+      "sha256": "974103552d4c08df0f3f05314462f44392547e4144a9c62afb3ce9518e4c7dc4"
+    },
+    {
+      "path": "survey/poc.py",
+      "sha256": "41f0d6e0c1e129678be57ed32f908172156eca87378f5c30470e68edf635362b"
+    },
+    {
+      "path": "survey/review.py",
+      "sha256": "5882c34175062c9f8e00c7d4ed13fab4a740e5c58f53f89c50fcab69a0d5885c"
+    },
+    {
+      "path": "survey/samples.py",
+      "sha256": "f067d7e4386af5430e14799e26a7b3029257c290085f141e5941299ca68e25ae"
+    },
+    {
+      "path": "survey/sources.py",
+      "sha256": "36466b9b9ef92005b0013d474cc2a3726cea647c7a176e14fadf7ec063e639d6"
+    },
+    {
+      "path": "survey/tiles.py",
+      "sha256": "7b86f5e2c1a0fe5e0d5d4aa008fdb32e0732aeae7f3c1f3c642303a2273e29c4"
+    }
+  ],
+  "implementation_hash": "0bbaa8723e7b41f068b25b93d41a009b749904b9833a30f8cc5f47be1522bc21"
+}

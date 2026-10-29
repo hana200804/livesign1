@@ -72,6 +72,12 @@ def parser() -> argparse.ArgumentParser:
     samples.add_argument("--per-year", type=int, default=12)
     commands.add_parser("poc", help="Chạy detector ONNX có sẵn trên mẫu đã khóa; không train.")
     commands.add_parser("prepare-poc", help="Tải detector PoC ở revision cố định và kiểm SHA-256.")
+    commands.add_parser(
+        "candidate-report", help="Đối chiếu nhãn gợi ý với số object dataset, chưa chốt lớp."
+    )
+    commands.add_parser(
+        "evaluate-poc", help="Chấm PoC chỉ khi có bbox và ánh xạ nhãn đã duyệt độc lập."
+    )
     commands.add_parser("build-review", help="Xuất giao diện gán bbox thủ công cho mẫu đã khóa.")
     review_import = commands.add_parser(
         "import-review", help="Kiểm tra và nhập JSON gán tay do người dùng xuất."
@@ -342,6 +348,21 @@ def main(argv: list[str] | None = None) -> int:
         if args.command == "doctor":
             doctor(root)
             return 0
+        if args.command == "candidate-report":
+            from .candidates import candidate_report
+
+            result = candidate_report(root)
+            print(
+                f"Đã lập bảng {result['candidate_class_count']} mã ứng viên; chưa chốt lớp hay tuyến."
+            )
+            return 0
+        if args.command == "evaluate-poc":
+            from .evaluation import evaluate_poc
+
+            result = evaluate_poc(root)
+            summary = {key: result[key] for key in ("status", "recall", "metrics_valid", "reasons")}
+            print(json.dumps(summary, ensure_ascii=False, indent=2))
+            return 0 if result["status"] != "not_run" else 2
         if args.command == "build-review":
             from .review import build_review
 

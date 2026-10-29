@@ -12,5 +12,13 @@
     "xác minh ánh xạ nhãn và đủ 10–15 mã ở train lẫn tuyến qua ba năm",
     "người dùng duyệt tuyến và danh mục lớp"
   ],
-  "next_stage_started": false
+  "next_stage_started": false,
+  "candidate_class_count": 18,
+  "candidate_report": "reports/stage0/route-class-review.md",
+  "candidate_comparison": "reports/stage0/route-candidate-comparison.csv",
+  "poc_evaluation_status": "not_run",
+  "poc_evaluation_reasons": [
+    "Chưa có bbox gán tay do người duyệt xuất và nhập vào hệ thống.",
+    "Chưa có quyết định duyệt cho toàn bộ nhãn đầu ra detector."
+  ]
 }

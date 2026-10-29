@@ -205,6 +205,7 @@ def run_poc(root: Path, params: dict) -> None:
             "python_packages": {"numpy": np.__version__, "onnxruntime": ort.__version__},
             "input_tensor": session.get_inputs()[0].shape,
             "output_tensor": shape,
+            "output_labels": [names[index] for index in range(len(names))],
             "confidence_threshold": confidence,
             "nms_iou_threshold": nms_threshold,
             "frame_count": len(frame_rows),

@@ -1,0 +1,4 @@
+﻿route,length_m,candidate_classes_with_hints_all_years,candidate_classes_with_raw_train_and_hints_all_years,candidate_codes,confirmed_eligible_classes,status,interpretation
+hang_bai,1485.766,14,14,I.407a;P.102;P.103a;P.123a;P.123b;P.127;P.128;P.130;P.131a;R.302a;W.209;W.225;W.227;W.233,,not_approved,search_priority_only_not_verified_class_coverage
+tran_quang_khai,1495.319,13,13,I.407a;P.102;P.103a;P.117;P.123a;P.123b;P.124a;P.127;P.130;P.131a;R.302a;R.303;W.227,,not_approved,search_priority_only_not_verified_class_coverage
+trang_thi,1537.048,12,12,I.407a;P.102;P.103a;P.106a;P.123a;P.123b;P.124a;P.127;P.130;P.131a;W.225;W.227,,not_approved,search_priority_only_not_verified_class_coverage

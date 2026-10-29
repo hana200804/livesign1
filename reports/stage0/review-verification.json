@@ -1,0 +1,31 @@
+{
+  "checked_at_utc": "2026-10-29T04:46:12.691435+00:00",
+  "scope": "đối chiếu Giai đoạn 0 và công cụ chấm PoC",
+  "pytest": {
+    "passed": 89,
+    "failed": 0,
+    "environment": "Python 3.12; pytest + PyYAML; không có NumPy/Pillow/ONNX Runtime/torch"
+  },
+  "ruff": "pass",
+  "compileall": "pass",
+  "javascript_syntax": "pass",
+  "candidate_input_output_hashes": "pass",
+  "candidate_class_count": 18,
+  "candidate_matrix_rows": 162,
+  "browser": {
+    "route_filter": "hang_bai",
+    "year_filter": 2023,
+    "matching_image_buttons": 12,
+    "image_dimensions_px": [
+      2048,
+      1024
+    ],
+    "manual_bbox_draw_and_export_e2e": "chưa kiểm"
+  },
+  "poc_frames": 108,
+  "poc_predicted_boxes": 30,
+  "raw_recall_status": "not_run_needs_independent_labels_and_mapping",
+  "negative_evidence_enabled": false,
+  "implementation_hash": "0bbaa8723e7b41f068b25b93d41a009b749904b9833a30f8cc5f47be1522bc21",
+  "ci_status": "chưa xác nhận cho commit của bước duyệt mới"
+}
