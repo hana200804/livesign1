@@ -1,0 +1,27 @@
+# Vùng mẫu hình chữ nhật. Đây không phải ranh giới hành chính quận.
+years: [2023, 2024, 2025]
+regions:
+  hoan_kiem:
+    name: Hoàn Kiếm
+    bbox: [105.839, 21.015, 105.862, 21.043]
+  cau_giay:
+    name: Cầu Giấy
+    bbox: [105.775, 21.012, 105.813, 21.055]
+  ha_dong:
+    name: Hà Đông
+    bbox: [105.750, 20.945, 105.790, 20.990]
+
+# Chỉ là điểm neo để tìm đường trên đồ thị OSM. Chưa chọn tuyến demo.
+route_seeds:
+  - id: hang_bai
+    name: Phố Huế – Hàng Bài
+    region: hoan_kiem
+    anchors: [[105.8524, 21.0168], [105.8534, 21.0296]]
+  - id: tran_quang_khai
+    name: Trần Quang Khải
+    region: hoan_kiem
+    anchors: [[105.8594, 21.0245], [105.8548, 21.0372]]
+  - id: trang_thi
+    name: Tràng Thi – Hai Bà Trưng
+    region: hoan_kiem
+    anchors: [[105.8439, 21.0262], [105.8480, 21.0220], [105.8552, 21.0229]]

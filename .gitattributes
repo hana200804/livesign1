@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Giữ nguyên byte CSV để đối chiếu hash và BOM giữa các máy.
+*.csv -text

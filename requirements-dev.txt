@@ -1,0 +1,2 @@
+-r requirements-survey.txt
+ruff==0.17.3

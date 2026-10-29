@@ -1,0 +1,36 @@
+survey_radius_m:
+  value: 30
+  status: đã chốt
+  reason: Hành lang khảo sát và số ảnh đi qua theo yêu cầu.
+road_sample_step_m:
+  value: 10
+  status: dự kiến
+  reason: Xấp xỉ độ phủ theo đoạn nhỏ có trọng số chiều dài; báo sai số phương pháp.
+query_tile_degrees:
+  value: 0.005
+  status: dự kiến
+  reason: Chia bbox truy vấn để hạn chế kích thước mỗi yêu cầu API.
+route_anchor_max_distance_m:
+  value: 100
+  status: dự kiến
+  reason: Dừng khi điểm neo quá xa nút đường có thể chạy xe.
+route_target_length_m:
+  value: 1500
+  status: dự kiến
+  reason: Độ dài mục tiêu; chỉ báo độ dài OSM thật, không tự nối điểm.
+poc_iou_threshold:
+  value: 0.5
+  status: dự kiến
+  reason: Chấm detector có sẵn trên ảnh gán tay; không phải bài thử B3.
+poc_confidence_threshold:
+  value: 0.25
+  status: dự kiến
+  reason: Ngưỡng khảo sát detector có sẵn; chưa phải ngưỡng model cuối.
+poc_nms_iou_threshold:
+  value: 0.45
+  status: dự kiến
+  reason: NMS theo lớp trong PoC.
+negative_evidence_enabled:
+  value: false
+  status: đã chốt
+  reason: Chỉ đổi sau bài thử B3 và khi người dùng cho phép.
