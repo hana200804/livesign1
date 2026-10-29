@@ -1,0 +1,10 @@
+﻿route,year,sample_images,verified_width_2048_pct,panorama_pct,camera_parameters_pct,manual_bbox_size_status
+hang_bai,2023,12,100.0,100.0,0.0,needs_manual_review
+hang_bai,2024,12,100.0,0.0,100.0,needs_manual_review
+hang_bai,2025,12,91.667,0.0,100.0,needs_manual_review
+tran_quang_khai,2023,12,100.0,100.0,0.0,needs_manual_review
+tran_quang_khai,2024,12,100.0,0.0,100.0,needs_manual_review
+tran_quang_khai,2025,12,83.333,0.0,100.0,needs_manual_review
+trang_thi,2023,12,100.0,100.0,0.0,needs_manual_review
+trang_thi,2024,12,100.0,0.0,100.0,needs_manual_review
+trang_thi,2025,12,91.667,0.0,100.0,needs_manual_review

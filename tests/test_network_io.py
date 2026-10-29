@@ -4,7 +4,7 @@ import urllib.error
 
 import pytest
 
-from survey.io import load_env
+from survey.io import load_env, write_csv, write_json
 from survey.network import Http, Mapillary, SurveyError, canonical_id, safe_graph_url
 
 
@@ -16,6 +16,16 @@ def test_external_image_id_cannot_become_a_path(identity):
 
 def test_external_image_id_preserves_integer_precision():
     assert canonical_id(9_007_199_254_740_993) == "9007199254740993"
+
+
+def test_report_serialization_has_same_line_endings_on_windows_and_linux(tmp_path):
+    json_path = tmp_path / "manifest.json"
+    csv_path = tmp_path / "metrics.csv"
+    write_json(json_path, {"status": "cần đo"})
+    write_csv(csv_path, ["status"], [{"status": "cần đo"}])
+    assert b"\r" not in json_path.read_bytes()
+    assert b"\r" not in csv_path.read_bytes()
+    assert csv_path.read_bytes().startswith(b"\xef\xbb\xbf")
 
 
 @pytest.mark.parametrize(

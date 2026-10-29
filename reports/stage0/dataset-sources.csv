@@ -1,0 +1,4 @@
+source_id,url,version,declared_license,verification,actual_object_count,status,reason
+roboflow-giang-v3,https://universe.roboflow.com/giang-yp9g1/vietnam-traffic-sign-altsi/dataset/3,3,CC-BY-4.0,project_api_checked,18486,audited_original_annotations,Crop mẫu cần duyệt; chưa dùng để train
+kaggle-za-traffic-2020,https://www.kaggle.com/datasets/phhasian0710/za-traffic-2020,1,Unknown,kaggle_api_checked,,excluded_license_unknown,Chỉ đọc metadata; chưa tải ảnh và chưa kiểm annotation
+zalo-traffic-2020,https://challenge.zalo.ai/,2020_competition,cần xác minh,primary_license_not_verified,,not_downloaded,Chưa có URL archive và giấy phép chính xác; không dùng nhãn 7 nhóm để suy mã QCVN
